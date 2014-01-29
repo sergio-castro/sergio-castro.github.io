@@ -119,17 +119,20 @@ a img { /* this selector removes the default blue border displayed in some brows
 <script type="text/javascript" src="js/slides.min.jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jstree.js"></script>
 <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="js/ZeroClipboard.js"></script>
-<script type="text/javascript" src="js/BibTex.min.js"></script>
-
 <!--
 <script type="text/javascript" src="js/jquery.curvycorners.min.js"></script>
 <script type="text/javascript" src="js/jquery.gradient.min.js"></script>
 <script type="text/javascript" src="js/jquery.quicksand.js"></script>
 -->
+
 <script type="text/javascript" src="js/jquery.sc.plugins.js"></script>
-<script type="text/javascript" src="js/jquery.sc.copyDialog.js"></script>
-<script type="text/javascript" src="js/jquery.sc.publications.js"></script>
+
+<script type="text/javascript" src="js/publication/ZeroClipboard.js"></script>
+<script type="text/javascript" src="js/publication/jquery.sc.copyDialog.js"></script>
+
+<script type="text/javascript" src="js/publication/BibTex.min.js"></script>
+<script type="text/javascript" src="js/publication/jquery.sc.bibtex.js"></script>
+
 <script type="text/javascript" src="js/jquery.sc.menu.js"></script>
 
 

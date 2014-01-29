@@ -1,0 +1,3 @@
+[submodule "js/publication"]
+	path = js/publication
+	url = https://github.com/sergio-castro/js-publication.git

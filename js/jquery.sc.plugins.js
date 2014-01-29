@@ -2,8 +2,6 @@
 (function($) {
 	
 	$.fn.highlight = function(callback) {
-		//alert(callback);
-		var m = function() {alert('hola');};
 		var bc = this.css('backgroundColor');
 		this.animate({ backgroundColor: '#B2E2DA' }, 500);
 		return this.animate({ backgroundColor: bc }, {

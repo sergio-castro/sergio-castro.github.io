@@ -1,0 +1,3 @@
+AddCharset UTF-8 .shtml .html
+Options -Indexes +Includes
+DirectoryIndex index.html index.shtml

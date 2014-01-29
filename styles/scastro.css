@@ -1,0 +1,561 @@
+#siteMapContainer{
+	font-family: 1em/1em "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: small;
+	z-index: 10;
+	cursor: pointer;
+	
+	width: 210px;
+	height: 20px;
+	position: fixed;
+	
+	top: 250px;
+	left: 50%;
+	
+	/* If it is located in the right column*/
+	margin-left: 490px; /* -480 (half ot the size of the middle column) - 10 (left margin) */
+	
+	
+	/* If it is located in the left column*/
+	/*
+	margin-left: -700px;*/ /* -480 (half ot the size of the middle column) - 210 (width) - 10 (right margin)*/
+}
+
+
+#siteMapContainer * {
+	color: #000;
+}
+
+#siteMapContainer #siteMapRoot > a {
+	color: #06C !important;
+	font-weight:bold;
+}
+
+
+#top{
+	z-index: 3;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+
+/* *** banner *** */
+
+#banner{
+	
+	position: relative;
+	height: 200px;
+	margin: 0 auto;
+	width: 100%;
+	/*
+	background-color: #FFF;
+	*/
+}
+
+.titleBanner{
+	position: absolute; 
+	z-index: 3; 
+	/*top right bottom left*/
+	padding-left: 20px; 
+	padding-top: 10px;
+	
+	cursor: pointer;
+	font: 1em/1em "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	color: #663;
+	font-size: 26px;
+	font-weight: bolder;
+}
+
+#loadingImage {
+	position: absolute;
+	
+}
+
+.imageBanner {
+	/*
+	width: 960px;
+	height: 260px;
+	*/
+	width: 960px;
+	height: 200px;
+	
+}
+
+#bannerSlides {
+	position: absolute;
+	height: 100%;
+	z-index: 2;
+}
+.slidesContainer{
+	
+}
+
+/* *** end_banner *** */
+
+
+
+/* *** mainMenu *** */
+
+/* ~~ the mainMenu is not given a width. It will extend the full width of your layout. */
+#mainMenu {
+	
+	position: relative;
+	float: left;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	
+	right: 50%;
+	
+
+}
+
+#mainMenu {
+	
+}
+
+
+#centeredMenu{
+	position: relative;
+	float: left;
+	left: 50%;
+	
+}
+
+
+#menuBar{
+	font-size: small;
+	position: relative;
+	
+	width: 100%;
+	
+	/*
+	background: #ADB96E; 
+	background-image: url(img/menuBar.png);
+	from: '1f270f',
+	to:   '9da95e'
+	*/
+}
+
+.zoom{
+	position: absolute;
+	right: 0px;
+	z-index: 1;
+}
+
+.menuDimensions{
+	/*
+	width: 100px;
+	*/
+	width: 8em;
+	
+}
+
+.menuDimensions, #menuBar, .menuLine {
+	/*
+	height: 25px;
+	2 em;
+	*/
+	height: 2em;
+}
+
+.menuLine{
+	width: 1px;
+}
+
+.menuSeparator {
+	position:relative;
+	float:left;
+	cursor: pointer;
+}
+
+.menuLink {
+	outline: 0; /*removing the dotted outline of the links in the menus*/
+	text-decoration:none;
+	
+}
+
+.menuBackground{
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+}
+
+.unselectedMenu{
+	/*
+	background-image: url(img/unselectedMenu.png);
+	*/
+	/*
+	from: '3F472F',
+	to:   'ADB96E'
+	*/
+}
+
+.unselectedMenu, .unselectedMenu * {
+	color: #FFF;
+}
+
+.unselectedMenuBackground{
+	z-index:2;
+	display: block;
+}
+
+.mouseOverMenu{
+	/*
+	background-image: url(img/mouseOverMenu.png);
+	*/
+	/*
+	from: '5F674F',
+	to:   'CDD98E'
+	*/
+}
+
+.mouseOverMenu, .mouseOverMenu * {
+	color: #151515;
+}
+
+.mouseOverMenuBackground{
+	z-index:1;
+	display: none;
+}
+
+.selectedMenu{
+	/*
+	background-image: url(img/selectedMenu.png);
+	*/
+	/*
+	from: 'AFB79F',
+	to:   'EDF9AE'
+	*/
+}
+
+.selectedMenu, .selectedMenu * {
+	color: #000;
+}
+
+.selectedMenuBackground{
+	z-index:1;
+	display: none;
+}
+
+.menuItem {
+	position:relative;
+	float:left;
+	cursor: pointer;
+}
+
+
+
+.menuContent {
+	position: absolute;
+	z-index: 10;
+	text-align: center;
+	
+}
+
+.menuText{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding: 3px 0;
+}
+
+/* *** end_mainMenu *** */
+
+.console{
+	display: block;
+	
+	
+}
+
+.consoleMessage {
+	background: #EEB;
+	overflow: auto; 
+	text-align: center;
+	font-size: 12px;
+	
+	border-width: thin;
+	border-color:#063;
+	border-style: groove;
+	
+	
+	font-family: Verdana, Geneva, sans-serif;
+	color: #C03;
+}
+
+#javaScriptWarning {
+	
+}
+
+#errorMessage {
+	display: none;
+}
+
+
+/* *** mainContent *** */
+
+/* ~~ this fixed width container surrounds the other divs ~~ */
+#main {
+	width: 100%;
+	margin: 0 auto 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	position: relative;
+	z-index: 0;
+	
+	padding-top: 30px;
+	
+	/*
+	margin-top: 230px;
+	
+	background: #FFF;
+	min-height:100%;
+	*/
+}
+
+
+#JSMainContent{
+	
+	margin: 0;
+	padding: 0;
+	position: relative;	
+}
+
+
+#noJSMainContent{
+	
+	/*
+	
+	*/
+}
+
+/*
+	this content will be visible using JS
+*/
+.JSOnlyContent{
+	display: none;
+}
+
+/*
+elements with this tag are normally not visible (this will be overridden if JS is not available)
+*/
+.noJSContent{
+	display: none;
+	
+}
+
+/*
+content that should be visible if JavaScript is not available
+*/
+body#noJS .noJSContent{
+	display: block !important;
+}
+
+
+.contentWrapper {
+	/*top right bottom left*/
+	float: left;
+	position:relative;
+	padding: 0;
+	marging: 0;
+	width: 100%;
+	
+	/*
+	
+	
+	
+	*/
+	
+	/*display: none;*/     /*does not take space in the layout. Works fine with $.show() and friends*/
+	 /*visibility: hidden;*/ /*WARNING: still takes space in the layout. If a property stat with hidden, it will not be shown with the JQuery method .show()*/
+	
+	clear: both;
+	 /*overflow: auto;  will expand to content the children if necessary*/
+	
+}
+
+.contentView {
+	position:relative;
+	padding: 10px 20px 35px 20px;  /*the bottom parameter should be at least the height of the footer (the footer is absolutely positioned) */
+	
+}
+/* *** end_mainContent *** */
+
+.section {
+	clear: both;
+}
+
+
+/* *** footer *** */
+
+#footer {
+	/*
+	padding: 0px 10px 0px 10px;
+	*/
+	background: #CCC49F;
+	font-size: 9px;
+	
+	height: 15px; /*if the height change, the bottom padding of .contentView should be changed accordly */
+	width: 960px;
+	
+	position: absolute;
+	left: 50%;
+	
+	bottom: 0;
+	margin-left:-480px;
+/*
+	margin-left: -480px;
+	
+	
+	
+	position: relative;
+	float: left;
+	clear: both;
+	*/
+	
+	/*
+	
+	
+	*/
+	z-index: 2;
+	
+}
+
+.goUp {
+	position: relative;
+	float: left;
+	padding-left: 10px;
+	z-index: 1;
+}
+.pageValidators {
+	position: relative;
+	text-align: center;
+}
+.copyright {
+	position: relative;
+	float: right;
+	padding-right: 10px;
+}
+
+/* *** end_footer *** */
+
+
+
+
+
+
+
+
+/* *** real content *** */
+
+h2.siteMapAnchor {
+	background: #DBDBDB;
+	text-align:center;
+	cursor: pointer;
+	margin: 20px auto;
+	/*
+	
+	
+	*/
+}
+
+.minimizedSection {
+	border-style: dotted;
+	border-width: 1px;
+}
+
+#homeMenu {
+}
+#home {	
+}
+/*
+#contactDetailsContent{
+	position: relative;
+	float: left;
+}*/
+
+#myPicture{
+	height: 200px;
+	padding: 10px 0px;
+}
+
+#shortBioContent{
+	text-align: justify;
+}
+
+#researchMenu {
+}
+#research {	
+}
+
+
+#publicationsMenu {
+}
+#publications {
+}
+.publicationIcon{
+	height: 25px;
+	cursor: pointer;
+	/*
+	width: 30px;
+	
+	*/
+}
+
+.abstractLabel{
+	font-weight:bolder;
+	cursor: pointer;
+	text-decoration:underline;
+}
+
+.abstractContent{
+	text-align: justify;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	display: none;
+}
+
+#textToCopy{
+	font-size: smaller;
+	/*
+	font-family:"Courier New", Courier, monospace;
+	*/
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+#teachingMenu {
+}
+#teaching {
+}
+
+#coursesContent{
+	
+}
+
+#teachingTable{
+	margin: 0 auto;
+	font-size: 0.9em;
+	
+}
+
+#personalMenu {
+}
+#personal {
+}
+
+
+.publicationsGroupTemplate{
+	
+}
+
+.publicationsGroupTemplate{
+	
+}
+
+.anchor{
+	
+}
+
+/* *** end real content *** */
+
+
+

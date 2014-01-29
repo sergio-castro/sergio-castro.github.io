@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Research page" />
+<meta name="keywords" content="Sergio Castro, research, released, UCL, abductive reasoning" />
+<meta name="author" content="Sergio Castro" />
+<title>Sergio Castro</title>
+
+
+
+<link rel="stylesheet" href="styles/scastro.css" />
+<link rel="stylesheet" href="styles/3columnsLayout.css" />
+<link rel="stylesheet" href="styles/dataTable.css" />
+
+
+<link rel="stylesheet" href="styles/htmlExportStyleSheet.css" />
+
+<link rel="stylesheet" href="styles/themes/base/jquery.ui.all.css" />
+
+
+<!--
+<link rel="stylesheet" href="styles/themes-jstree/default/style.css" />
+-->
+
+<style type="text/css">
+<!--
+html, body {
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height: 100%;
+}
+
+body {
+	
+	font: 1em Helvetica, Verdana, Arial, sans-serif;
+	line-height: 1.3em;
+	font-size: 15px;
+	
+	
+	/*
+	background: #42413C;
+	color: #000;
+	*/
+	/*min-width:600px; Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	border:0;		/* This removes the border around the viewport in old versions of IE */
+}
+
+h1, h2, h3 {
+	
+	line-height: 1.1;
+	margin: 0.3em 0;
+	font-weight: 700;
+}
+
+h1 {
+	letter-spacing: -2px;
+	font-size: 2.8em;
+	color: #444444;
+}
+
+h2 {
+	font-size: 2.1em;
+	color: #222222;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: #111111;
+}
+
+
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* removes the bottom line in links with images that iexplorer puts*/
+.linkWithImg{
+	text-decoration: none;
+}
+
+
+/* ~~ miscellaneous classes ~~ */
+
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #main) if the #footer is removed or taken out of the #main */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+.blockImage {
+	display: block;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+-->
+</style>
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script> 
+<script type="text/javascript" src="js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="js/jquery.jstree.js"></script>
+<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/ZeroClipboard.js"></script>
+<script type="text/javascript" src="js/BibTex.min.js"></script>
+
+<!--
+<script type="text/javascript" src="js/jquery.curvycorners.min.js"></script>
+<script type="text/javascript" src="js/jquery.gradient.min.js"></script>
+<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+-->
+<script type="text/javascript" src="js/jquery.sc.plugins.js"></script>
+<script type="text/javascript" src="js/jquery.sc.copyDialog.js"></script>
+<script type="text/javascript" src="js/jquery.sc.publications.js"></script>
+<script type="text/javascript" src="js/jquery.sc.menu.js"></script>
+
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22506695-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+
+
+
+
+
+
+
+<body id="noJS">
+
+<script type="text/javascript">//<![CDATA[
+(function ($) {
+	$('body').attr('id','JS');
+})(jQuery);
+//]]></script>
+
+
+
+
+<div id="mask">
+
+
+
+	<div class="firstHalf">
+		<div id="backgroundLeft" >
+        	<img style="position: absolute; height: 100%; width: 100%; " alt="leftBackground" src="img/backgroundLeft.png" />
+        </div>
+	</div>
+    
+    <div class="secondHalf">
+		<div id="backgroundCenter"></div>
+	</div>
+	
+	<div class="secondHalf">
+		<div id="backgroundRight">
+        	<img style="position: absolute; height: 100%; width: 100%; " alt="rightBackground" src="img/backgroundRight.png" />
+        </div>
+	</div>
+  
+  <div class="clearfloat"></div>   <!-- &nbsp;   the background image is NOT displayed in IE without this line -->
+ 
+
+
+
+
+	<div id="colmid">
+		<div id="colright">
+			<div id="col1wrap">
+				<div id="col1" class="sideColumn">
+                
+                
+					<!-- Column 1 start -->
+                    
+                    
+                    &nbsp;
+                    <!--
+					<div style="position: relative; float: right;">
+                    	<span>-Column left here-</span>
+                    </div>
+                    -->
+                    
+
+                    
+
+                    
+
+                    
+					<!-- Column 1 end -->
+                    
+				</div>
+			</div>
+			<div id="col2wrap">
+				<div id="col2" class="sideColumn">
+					<!-- Column 2 start -->
+                    &nbsp;
+                    <!--
+                    <div style="position: relative; float: left;">
+                    	<span>-Column right here-</span>
+                    </div>
+					-->
+                    
+                    <div id="siteMapContainer" title="Drag me">
+                    </div>
+                    
+                    
+					<!-- Column 2 end -->
+				</div>
+			</div>
+			<div id="col3">
+				<!-- Column 3 start -->
+	                   
+
+
+  <div id="top">
+  
+  
+    <div id="banner">  
+  
+      <div class="titleBanner" >Sergio Castro <!--Mej&iacute;a--></div>
+  
+  
+      <div id="loadingImage">
+          <img class="blockImage" alt="loading" src="img/ajax-loader.gif" />
+      </div>
+   
+      <div id="bannerSlides">
+          <div class="slidesContainer">
+  
+              <div class="slide" >
+                  <img class="blockImage imageBanner"  src="img/ecuadorForrest_small.jpg" alt="Ecuador, Napo. Near the forrest" title="Ecuador, Napo. Near the forrest"  longdesc="Ecuador, Napo. Near the forrest" />
+              </div>
+          
+              <div class="slide" style="display: none;" >
+                  <img class="blockImage"  src="img/birds1_small.jpg" alt="Ecuador, Manab&iacute;. The sea near 'Isla de la Plata'" title="Ecuador, Manab&iacute;. The sea near 'Isla de la Plata'"  longdesc="Ecuador, Manab&iacute;. The sea near 'Isla de la Plata'" />
+              </div>
+          </div>
+      </div>
+      
+      
+  
+    </div>     
+  
+  
+  
+  
+    <div id="menuBar">
+  
+      <div>
+          <img class="blockImage" alt="menuBarBackground" src="img/menuBar.png"  width="100%" height="100%" style="position: absolute;" />
+      </div>
+        
+
+        
+        
+      <div id="zoomContainer" class="JSOnlyContent">
+        <span id="fullScreen" title="Full screen" class="zoom ui-corner-all ui-icon ui-icon-triangle-1-n "></span>
+        <span id="normalView" title="Normal view" class="zoom ui-corner-all ui-icon ui-icon-triangle-1-s " style="display: none"></span>
+        <!--
+        <div class="ui-state-default ui-corner-all" title=".ui-icon-arrowthickstop-1-s"><span class="ui-icon ui-icon-triangle-1-e "></span></div>
+        -->
+      </div>
+      
+  
+      <div id="centeredMenu">
+  		<a name="top"></a>
+        <div id="mainMenu"> <!-- using ul and li instead of plain div created problems with the rendering in IE-->
+      
+          <div class="menuSeparator">
+            <img class="blockImage menuLine" alt="menuLine" src="img/menuSeparator_small.png"/>
+          </div>
+      
+          <div id="home_menu" class=" menuDimensions menuItem unselectedMenu" >
+        
+            <div>
+              <img class=" menuDimensions menuBackground unselectedMenuBackground" alt="unselectedMenuBackground" src="img/unselectedMenu.png" />
+              <img class=" menuDimensions menuBackground mouseOverMenuBackground" alt="mouseOverMenuBackground" src="img/mouseOverMenu.png" />
+              <img class=" menuDimensions menuBackground selectedMenuBackground" alt="selectedMenuBackground" src="img/selectedMenu.png" />
+            </div>
+          
+            <div class=" menuDimensions menuContent">
+              <div class=" menuText "><a href="#home" title="Contact details" class="menuLink">Home</a></div>
+            </div>
+  
+          </div>
+      
+      
+          <div class="menuSeparator">
+            <img class="blockImage menuLine" alt="menuLine" src="img/menuSeparator_small.png"/>
+          </div>
+       
+      
+          <div id="research_menu" class="menuDimensions menuItem unselectedMenu">
+        
+            <div>
+              <img class=" menuDimensions menuBackground unselectedMenuBackground" alt="unselectedMenuBackground" src="img/unselectedMenu.png" />
+              <img class=" menuDimensions menuBackground mouseOverMenuBackground" alt="mouseOverMenuBackground" src="img/mouseOverMenu.png" />
+              <img class=" menuDimensions menuBackground selectedMenuBackground" alt="selectedMenuBackground" src="img/selectedMenu.png" />
+            </div>
+          
+            <div class="menuDimensions menuContent">
+              <div class="menuText"><a href="#research" title="My research" class="menuLink">Research</a></div>
+            </div>
+          
+          </div>
+      
+       
+          <div class="menuSeparator">
+            <img class="blockImage menuLine" alt="menuLine" src="img/menuSeparator_small.png"/>
+          </div>
+             
+              
+          <div id="publications_menu" class="menuDimensions menuItem unselectedMenu">
+        
+            <div>
+              <img class=" menuDimensions menuBackground unselectedMenuBackground" alt="unselectedMenuBackground" src="img/unselectedMenu.png" />
+              <img class=" menuDimensions menuBackground mouseOverMenuBackground" alt="mouseOverMenuBackground" src="img/mouseOverMenu.png" />
+              <img class=" menuDimensions menuBackground selectedMenuBackground" alt="selectedMenuBackground" src="img/selectedMenu.png" />
+            </div>
+          
+            <div class="menuDimensions menuContent">
+              <div class="menuText"><a href="#publications" title="My publications" class="menuLink">Publications</a></div>
+            </div>
+          
+          </div>
+          
+          
+          <div class="menuSeparator">
+            <img class="blockImage menuLine" alt="menuLine" src="img/menuSeparator_small.png"/>
+          </div>
+         
+         
+          <div id="teaching_menu" class="menuDimensions menuItem unselectedMenu">
+  
+            <div>
+              <img class=" menuDimensions menuBackground unselectedMenuBackground" alt="unselectedMenuBackground" src="img/unselectedMenu.png" />
+              <img class=" menuDimensions menuBackground mouseOverMenuBackground" alt="mouseOverMenuBackground" src="img/mouseOverMenu.png" />
+              <img class=" menuDimensions menuBackground selectedMenuBackground" alt="selectedMenuBackground" src="img/selectedMenu.png" />
+            </div>
+          
+            <div class="menuDimensions menuContent">
+              <div class="menuText"><a href="#teaching" title="Teaching activities" class="menuLink">Teaching</a></div>  
+            </div>
+           
+          </div>
+          
+
+          <!-- 
+          <div class="menuSeparator">
+            <img class="blockImage menuLine" alt="menuLine" src="img/menuSeparator_small.png"/>
+          </div>
+      
+          <div id="personal_menu" class="menuDimensions menuItem unselectedMenu">
+  
+            <div>
+              <img class=" menuDimensions menuBackground unselectedMenuBackground" alt="unselectedMenuBackground" src="img/unselectedMenu.png" />
+              <img class=" menuDimensions menuBackground mouseOverMenuBackground" alt="mouseOverMenuBackground" src="img/mouseOverMenu.png" />
+              <img class=" menuDimensions menuBackground selectedMenuBackground" alt="selectedMenuBackground" src="img/selectedMenu.png" />
+            </div>
+          
+            <div class="menuDimensions menuContent">
+              <div class="menuText"><a href="#personal" title="About me" class="menuLink" >Personal</a></div>
+            </div>
+          </div>
+      -->
+      
+          <div class="menuSeparator">
+              <img class="blockImage menuLine" alt="menuLine" src="img/menuSeparator_small.png"/>
+          </div>
+      
+        </div>
+  
+      </div>  
+  
+    </div>
+  
+  </div>
+  
+  
+  
+  
+  <div class="clearfloat"></div>
+  
+  
+  
+  <div class="console">
+      <noscript>
+          <div id="javaScriptWarning" class="consoleMessage">
+              <p>The presentation of this site is enhanced if you enable <a href="http://en.wikipedia.org/wiki/JavaScript" title="The JavaScript language">JavaScript</a>.<br/>
+         Please activate it.
+              </p>
+          </div>        
+      </noscript>
+      
+      <div id="errorMessage" class="consoleMessage">
+      </div>
+  </div>
+  
+  
+  
+  
+  <div id="main">
+      
+    <div id="noJSMainContent" class="noJSContent">
+    
+      <div id="home" class="contentWrapper">
+      	<h1 id="home_header" class="siteMapAnchor">Home</h1>
+        <div class="contentView">
+ 			<!--
+ 		  <p>page under construction!</p>
+          -->
+          <div>
+            <h2 id="contactDetails_header" class="siteMapAnchor">Contact Details</h2>
+            <div id="contactDetailsContent" class="section"> 
+
+              <div style="float: left">
+  
+                <strong>Sergio Castro</strong> <br />
+                Ph.D. candidate / Teaching assistant<br />
+                <a href="http://released.info.ucl.ac.be/" title="RELEASeD Lab" >RELEASeD</a> Lab<br />
+                Computing Science Department (<a href="http://www.uclouvain.be/en-secteur-sciences-technologies" title="Science and Technology Sector">STS</a> / <a href="http://www.uclouvain.be/en-icteam" title="Institute of Information and Communication Technologies, Electronics and Applied Mathematics">ICTEAM</a> / <a href="http://www.uclouvain.be/en-ingi" title="Computing science engineering department">INGI</a>)<br />
+                Universit&#233; catholique de Louvain (<a href="http://www.uclouvain.be/en-index" title="Université catholique de Louvain" >UCL</a>)<br />
+        
+                <a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Place+Sainte+Barbe,+2&amp;aq=&amp;sll=50.85034,4.35171&amp;sspn=0.254039,0.727158&amp;ie=UTF8&amp;hq=&amp;hnear=Place+Sainte-Barbe+2,+1348+Ottignies-Louvain-la-Neuve,+Brabant+Wallon,+R%C3%A9gion+Wallonne,+Belgium&amp;ll=50.668858,4.61973&amp;spn=0.003985,0.011362&amp;z=17&amp;iwloc=A" title="Place Sainte Barbe, 2. Louvain-la-Neuve, Belgium" >Place Sainte Barbe, 2<br />
+                B-1348 Louvain-la-Neuve, Belgium</a><br />
+                Phone: (++32) 10 47 34 14<br />
+                Fax: (++32) 10 45 03 45<br />
+                E-mail: Sergio(dot)Castro(at)uclouvain(dot)be<br />
+  
+				<a href="https://twitter.com/sergiointmatrix" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @sergiointmatrix</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				
+				<a class="linkWithImg" href="http://www.linkedin.com/in/sergiocastromejia">
+                    <img src="img/linkedin-favicon.png" class="im" title="LinkedIn profile" alt="LinkedIn icon" />
+                </a>
+
+                <a class="linkWithImg" href="http://www.uclouvain.be/Sergio.Castro">
+                    <img src="img/ucl-favicon.png" class="im" title="UCL personnel web page" alt="UCL icon" />
+                </a>
+
+                <a class="linkWithImg" href="files/scastro.vcf">
+                    <img src="img/vcard-favicon.png" class="im" title="vCard" alt="vCard icon" />
+                </a>
+
+                <a class="linkWithImg" href="files/sergio_castro_ssh_public_key.pub">
+                    <img src="img/ssh_favicon.png" class="im" title="SSH public key" alt="SSH icon" />
+                </a>
+
+                <a class="linkWithImg" href="files/sergio_castro_pgp_public_key.asc">
+                    <img src="img/pgp_favicon.png" class="im" title="PGP public key" alt="PGP icon" />
+                </a>
+			  </div>
+            
+              <div style="float: right">
+            	<img class="blockImage" id="myPicture" src="img/yo_zoom_web.jpg" alt="Sergio Castro"  longdesc="Sergio Castro" />
+              </div>
+            
+              <div class="clearfloat"></div>
+            </div>
+          </div>
+        
+        
+          <div>
+            <h2 id="shortBio_header" class="siteMapAnchor">Short bio</h2>
+            <div id="shortBioContent"> 
+                  
+                  
+                  
+                  Sergio Castro is a PhD candidate and teaching assistant at the <em>Universit&#233; catholique de Louvain</em> (<a href="http://www.uclouvain.be/en-index" title="Université catholique de Louvain" >UCL</a>). His workgroup is the <em>REsearch Laboratory on software Evolution And Software Development technology</em> (<a href="http://released.info.ucl.ac.be/" title="RELEASeD Lab" >RELEASeD</a>), under the direction of professor <a href="http://www.info.ucl.ac.be/~km/" >Kim Mens</a>. 
+<br/>
+He holds a degree in Computer Engineering specialized in Information Systems from the <em>Escuela Superior Polit&#233;cnica del Litoral</em> (
+<a href="http://www.espol.edu.ec/" title="Escuela Superior Polit&#233;cnica del Litoral" >ESPOL</a>), Ecuador, and an International Master in Computer Science from the <em>Vrije Universiteit Brussel</em> (<a href="http://www.vub.ac.be/" title="Vrije Universiteit Brussel" >VUB</a>), Belgium.
+<br/>
+His current research interests are related to multi-paradigm programming, linguistic symbiosis, domain specific languages and program transformation techniques.
+Other interests involve software evolution and logic meta-programming techniques in general, and co-evolution of design rules and source code in particular.
+<br/>
+His previous professional experience has mainly been related to an active participation in the analysis, design and implementation of software systems for leading ecuadorian telecom companies.
+<br/>
+<br/>
+A detailed CV can be downloaded <a href="files/cv_scastro_en.pdf" title="Extended CV" >here</a>.
+                  
+                  
+                  
+            </div>
+          </div>
+          
+        </div>
+      </div>  <!-- end Home -->
+      
+      <hr/>
+      
+      <div id="research" class="contentWrapper">
+      	<h1 id="research_header" class="siteMapAnchor">Research</h1>
+      	<div class="contentView">
+
+
+          <div>
+            <h2 id="currentResearch_header" class="siteMapAnchor">Current Research</h2>
+            <div id="currentResearchContent"> 
+	
+	
+              	<p>I am currently working on portable libraries and frameworks for simplifying the interaction between a logic language (Prolog) and an object-oriented language (Java).
+				One of my main objectives is to facilitate, by means of linguistic symbiosis techniques, the creation and evolution of systems composed of both logic and object-oriented modules.</p>
+
+				<p>In addition, I am attempting to provide a set of reusable open-source hybrid software components (e.g., GUI components) that may help to create more efficiently such Java-Prolog systems, and that are not coupled to a particular backend Prolog engine.</p>
+
+				<p>You can check out my projects in the public domain, on this and other topics, at <a href="https://github.com/sergio-castro/" title="Sergio Castro's projects in the public domain" >GitHub</a></p>
+	
+	
+            </div>
+          </div>
+
+
+
+
+          <div>
+            <h2 id="previousWork_header" class="siteMapAnchor">Previous Work</h2>
+            <div id="previousWorkContent"> 
+	
+	
+              	<p>Other previous (unmaintained) open source projects I have been involved are:</p>
+
+				<p><a href="http://soft.vub.ac.be/SOUL/applications/heal-diagnose-and-correct-program-irregularities/" title="Heal" >Heal</a>: 
+				A library for diagnosing and correcting design inconsistencies in Smalltalk by means of <a href="http://en.wikipedia.org/wiki/Abductive_reasoning" title="Abductive Reasoning" >logic abductive reasoning</a> and inter-language reflection.</p>
+				
+				<p><a href="http://ssel.vub.ac.be/jasco/community.html" title="JAsCo" >JAsCo</a>: 
+				Implementation of the distributed <a href="http://stackoverflow.com/questions/5205916/aspect-oriented-programming-what-is-cflow" title="cflow" >cflow</a> construct.</p>
+	
+	
+            </div>
+          </div>
+
+
+
+          <!--
+	  	  <div>
+            <h2 id="otherActivities_header" class="siteMapAnchor">Other Activities</h2>
+            <div id="otherActivitiesContent"> 
+              Other Activities ...
+            </div>
+          </div>
+
+		  <div>
+            <h2 id="otherInterests_header" class="siteMapAnchor">Other Interests</h2>
+            <div id="otherInterestsContent"> 
+              Other Interests ...
+            </div>
+          </div>
+          -->
+
+      	</div>
+      </div>  <!-- end Research -->
+          
+      <hr/>
+          
+      <div id="publications" class="contentWrapper">
+      	<h1 id="publications_header" class="siteMapAnchor">Publications</h1>
+      	<div class="contentView">
+
+          
+          
+          <!--<p>page under construction!</p>-->
+          <div class="JSOnlyContent" >
+            <div>
+              <h2 id="journals_header" class="siteMapAnchor">Journals</h2>
+              <!-- class="publicationsContent" -->
+              <div id="journalsContent" ></div>
+              <div class="clearfloat"></div>
+            </div>
+            
+            <div>
+              <h2 id="conferences_header" class="siteMapAnchor">Conferences</h2>
+              <div id="conferencesContent" ></div>
+              <div class="clearfloat"></div>
+            </div>
+            
+            <div>
+              <h2 id="workshops_header" class="siteMapAnchor">Workshops</h2>
+              <div id="workshopsContent"> 
+                
+                <h3 id="publishedWorkshops_header" class="siteMapAnchor">Published</h3>
+                <div id="publishedWorkshopsContent"></div>
+                <div class="clearfloat"></div>
+                
+                
+                <h3 id="unpublishedWorkshops_header" class="siteMapAnchor">Unpublished</h3>
+                <div id="unpublishedWorkshopsContent" ></div>
+                <div class="clearfloat"></div>
+              </div>    
+            </div>
+
+            <div>
+              <h2 id="seminars_header" class="siteMapAnchor">Seminars</h2>
+              <div id="seminarsContent" ></div>
+              <div class="clearfloat"></div>
+            </div>
+                        
+            <div>
+              <h2 id="technicalReports_header" class="siteMapAnchor">Technical Reports</h2>
+              <div id="technicalReportsContent" ></div>
+              <div class="clearfloat"></div>
+            </div>
+            
+            <div>
+              <h2 id="theses_header" class="siteMapAnchor">Theses</h2>
+              <div id="thesesContent" ></div>
+              <div class="clearfloat"></div>
+            </div>
+          </div>
+          
+		  <div id="allPublications" class="noJSContent">
+        	<!--#include virtual="publications.inc" --> 
+      		<div class="clearfloat"></div>
+          </div>
+      	</div> 
+        
+
+        
+      </div> <!-- Publications -->
+          
+          
+      <hr/> 
+          
+      <div id="teaching" class="contentWrapper">
+      	<h1 id="teaching_header" class="siteMapAnchor">Teaching</h1>
+      	<div class="contentView">
+
+          
+          <!-- <p>page under construction!</p> -->
+          
+          <div>
+            <h2 id="courses_header" class="siteMapAnchor">Courses</h2>
+            <div id="coursesContent"> 
+
+
+              <table id="teachingTable" width="100%" cellpadding="0" cellspacing="0" border="0" class="display">
+                  <!-- <caption>Teaching activities</caption> -->
+                <thead>
+                  <tr>
+                  	<th scope="col" style="width: 10%;">Institution</th>
+                    <th scope="col" style="width: 20%;">Code of the course</th>
+                    <th scope="col" style="width: 50%;">Description</th>
+                    <th scope="col" style="width: 20%;">Position</th>
+                  </tr>
+                </thead>
+                <tbody>	
+                  <tr>
+                  	<td>UCL</td>
+                    <td>INGI2252</td>
+                    <td>Software measures, metrics and maintainance. 
+                    	Target language: <i>Smalltalk</i> (<a href="http://www.pharo-project.org/" title="Pharo" >Pharo</a>).
+                    </td>
+                    <td>PhD candidate/teaching assistant</td>
+                  </tr>
+
+                  <tr>
+                  	<td>UCL</td>
+                    <td>SINFINFO2255</td>
+                    <td>Software development project. 
+                    </td>
+                    <td>PhD candidate/teaching assistant</td>
+                  </tr>
+
+                  <tr>
+                  	<td>UCL</td>
+                    <td>LSINF1225</td>
+                    <td>Object-oriented design and data management. 
+                    	Platform: <i>Android</i>.
+                    </td>
+                    <td>PhD candidate/teaching assistant</td>
+                  </tr>
+
+                  <tr>
+                  	<td>UCL</td>
+                    <td>LSINF1161</td>
+                    <td>Introduction to programming and the object orientation paradigm. 
+                    	Target language: <i>Java</i>.
+                    </td>
+                    <td>PhD candidate/teaching assistant</td>
+                  </tr>
+                  
+                  <tr>
+                  	<td>UCL</td>
+                    <td>LSINF1151</td>
+                    <td>Computer aided problem resolution. 
+                    	Target language: <i>Java</i>.
+                    </td>
+                    <td>PhD candidate/teaching assistant</td>
+                  </tr>
+                  
+                  
+<!--
+                  <tr>
+                  	<td>ESPOL</td>
+                    <td>Programming Fundamentals</td>
+                    <td>Introduction to programming and algorithms specification.
+                    	Target language: <i>C</i>.
+                    </td>
+                    <td>Engineering student/teaching assistant</td>
+                  </tr>
+                  
+                  <tr>
+                  	<td>ESPOL</td>
+                    <td>Data Structures</td>
+                    <td>
+                    	Problem solving with data structures.
+                        Target languages: <i>C, C++</i>.
+                    </td>
+                    <td>Engineering student/teaching assistant</td>
+                  </tr>
+-->
+
+                </tbody>
+          </table>
+  
+            </div>
+          </div>  
+            
+            
+  		  <div>
+            <h2 id="thesesGuidance_header" class="siteMapAnchor">Theses guidance</h2>
+            <div id="thesesGuidanceContent"> 
+            <p>I have collaborated as a reader and co-advisor of the following master theses:</p>
+              <dl>
+                 <dt class="Title">  Implementing context-aware mobile applications through dynamic reification of a database model.  </dt> 
+                 <dd class="Pub">  <strong>Espoir Gahungere</strong>.
+                 	Universit&#233; catholique de Louvain.
+                    Promotor: Prof. Kim Mens, Sergio Castro. 2013.</dd>
+	
+                 <dt class="Title">  Un Outil d'Analyse de la Qualit&#233; du Code Destin&#233; aux &#201;tudiants de Premi&#232;re Ann&#233;e de Baccalaur&#233;at.  </dt> 
+                 <dd class="Pub">  <strong>Nicolas Muller</strong>.
+                 	Universit&#233; catholique de Louvain.
+                    Promotor: Prof. Kim Mens. 2010.</dd>
+                 
+                 <dt class="Title"> Definition and Verification of Structural Regularities in Enterprise Java Beans Applications   </dt> 
+                 <dd class="Pub">  <strong>Laurent Lantsoght</strong>.
+                 	Universit&#233; catholique de Louvain.
+                    Promotor: Prof. Kim Mens. 2009.</dd>
+              </dl>
+            </div>
+          </div>
+          
+        </div>
+      </div> <!-- end Teaching -->
+      
+      
+      <hr/>
+          
+
+<!-- 
+      <div id="personal" class="contentWrapper">
+      	<h1 id="personal_header" class="siteMapAnchor">Personal</h1>
+      	<div class="contentView">
+
+              
+              <p>page under construction!</p>
+            <div>
+
+              <div id="personalContent" style="text-align: center">
+          <img src="img/man-at-work.jpg" alt="page under construction!" title="page under construction!"  style="margin-left: auto; margin-right:auto" longdesc="page under construction!"/>
+      
+              </div>
+            </div>
+      	</div>
+      
+      </div> 
+-->  <!-- end Personal -->
+      
+      
+      
+      <div class="clearfloat"></div>
+      
+      
+      
+          <!--<p>&nbsp;</p>-->
+    
+    </div> <!-- end noJSMainContent -->
+  
+  
+  
+  
+  
+  
+  
+  
+  </div><!-- end main -->
+
+
+
+
+
+				<!-- Column 3 end -->
+ 
+			</div>
+		</div>
+	</div>
+    
+    
+    
+    <div class="clearfloat"></div>
+      
+    <div id="footer">  
+      <div class="goUp">    
+          <a href="#top">
+          <!-- height="14" width="10" -->
+  
+              <img src="img/arrowUp_small.png" title="Top of the page" alt="Top of the page" longdesc="Go to the top of the page" />
+          </a>
+      </div>
+  
+      <div class="copyright">2013 &copy; Sergio Castro</div>
+      <!-- 
+      <div class="pageValidators">Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a> 
+		-->
+
+      <!--
+      &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>.
+      -->
+      
+      </div>
+    </div> <!-- end #footer -->
+  
+  	<div class="clearfloat"></div>
+
+  
+</div> <!-- end #mask -->
+
+
+
+
+
+</body>
+</html>

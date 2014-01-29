@@ -1,0 +1,128 @@
+/*CSS adapted from: http://matthewjamestaylor.com/blog/split-page-3-column-liquid-layout.htm */
+
+/* column container */
+#mask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+	 /*background:#fff; Right column background colour */
+	min-height: 100%;  /*this is in order to keep the foot down */
+	
+	
+	   /*padding-bottom:15px; Height of the footer */
+	   
+	   height: auto !important; 
+	   /*height:100%; hack for IE6 (footer at the bottom) */
+
+
+}
+#colmid {
+	float:left;
+	width:200%;
+	position:relative;
+	left:50%;
+	margin-left:-480px; /*(-center.width/2)*/
+	/*background: #f6f; Centre column background colour */
+}
+#colright {
+	
+	float:left;
+	width:100%;
+	position:relative;
+	left:960px;         	/* Left column width + right column width */ /*(center.width)*/
+	/* background:#fff;  Left column background colour */
+}
+#col1wrap {
+	float:left;
+	width:25%; /*half screen*/
+	position:relative;
+	right:25%;
+}
+#col1 {
+	margin:0 0px 0 480px; /*0 left.rightPadding 0 (center.width/2 + left.leftPadding)*/
+	position:relative;
+	right:960px; /*(center.width)*/
+	/*
+	overflow:hidden;
+	*/
+	z-index: 2;
+}
+#col2wrap {
+	float:left;
+	width:25%;
+	position:relative;
+	right:25%;
+}
+#col2 {
+	margin:0 0px 0 480px; /*0 right.rightPadding 0 (center.width/2 + right.leftPadding)*/
+	position:relative;
+	right:480px; /*(center.width/2)*/
+	/*
+	overflow:hidden;
+	*/
+	z-index: 2;
+}
+#col3 {
+	
+	float:left;
+	width:960px;        	/* Width of right column content (right column width minus left and right padding) */ /*(center.width) - center.leftPadding - center.rightPadding*/
+	margin-left:-960px;  	/* Width of right column right-hand padding + left column left and right padding */ /*-(center.width) + center.leftPadding*/
+	position:relative;
+	right:50%;
+	z-index: 2;
+}
+
+
+.firstHalf{
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	left: 0;
+	z-index: 0;
+}
+
+.secondHalf{
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	left: 50%;
+	z-index: 0;
+}
+
+#backgroundLeft{
+	position: relative;
+	height: 100%;
+	margin: 0 480px 0 0; /*0 (center.width/2) 0 0*/
+	z-index: 0;
+	/*
+	background: #A0F;
+	*/
+}
+
+#backgroundRight{
+	position: relative;
+	height: 100%;
+	margin: 0 0 0 480px; /*0 0 0 (center.width/2)*/
+	z-index: 0;
+	/*
+	background: #35A;
+	*/
+}
+
+
+#backgroundCenter{
+	position: relative;
+	height: 100%;
+	width: 960px; /*(center.width)*/
+	left: -480px; /*(-center.width/2)*/
+	z-index: 0;
+	/*
+	background: #FFF;
+	*/
+	
+}
+
+
+

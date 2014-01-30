@@ -1,6 +1,6 @@
 [submodule "js/publication"]
 	path = js/publication
 	url = https://github.com/sergio-castro/js-publication.git
-[submodule "css/publication"]
-	path = css/publication
+[submodule "styles/publication"]
+	path = styles/publication
 	url = https://github.com/sergio-castro/css-publication.git

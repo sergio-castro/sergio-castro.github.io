@@ -1,0 +1,19 @@
+#teachingTable{
+	margin: 0 auto;
+	font-size: 0.9em;
+	
+}
+
+#myPicture{
+	height: 200px;
+	padding: 10px 0px;
+}
+
+#shortBioContent{
+	text-align: justify;
+}
+
+.minimizedSection {
+	border-style: dotted;
+	border-width: 1px;
+}

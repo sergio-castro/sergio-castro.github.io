@@ -495,8 +495,6 @@ the site map, main menu, and anchor in the content are coordinated following the
 		configureMenu();
 		addSiteMap();
 		
-		$('.JSOnlyContent').show();
-		
 		/*
 		
 		$('#banner, .imageBanner, .slidesContainer, #menuBar, h2.siteMapAnchor').corner({

@@ -114,6 +114,13 @@ a img { /* this selector removes the default blue border displayed in some brows
 
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
+
+
+
+
+
+
+
 <script type="text/javascript" src="js/jquery-ui.custom.min.js"></script> 
 
 <script type="text/javascript" src="js/slides.min.jquery.js"></script>
@@ -151,9 +158,20 @@ a img { /* this selector removes the default blue border displayed in some brows
   })();
 
 </script>
+
+
+
+
+<script type="text/javascript">
+(function ($) {
+	$(function() {
+		$('body').attr('id','JS');
+		$('.JSOnlyContent').show();
+	});
+})(jQuery);
+</script>
+
 </head>
-
-
 
 
 
@@ -162,18 +180,8 @@ a img { /* this selector removes the default blue border displayed in some brows
 
 <body id="noJS">
 
-<script type="text/javascript">//<![CDATA[
-(function ($) {
-	$('body').attr('id','JS');
-})(jQuery);
-//]]></script>
-
-
-
 
 <div id="mask">
-
-
 
 	<div class="firstHalf">
 		<div id="backgroundLeft" >

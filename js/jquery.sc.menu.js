@@ -456,7 +456,7 @@ the site map, main menu, and anchor in the content are coordinated following the
 			{publicationType: 'misc', target: 'seminarsContent'},
 			{publicationType: 'mastersthesis', target: 'thesesContent'}
 		];
-		$.configurePublications('allPublications', publicationsDistribution);
+		$.classifyPublications('allPublications', publicationsDistribution);
 	}
 		
 		

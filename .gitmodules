@@ -4,3 +4,6 @@
 [submodule "styles/publication"]
 	path = styles/publication
 	url = https://github.com/sergio-castro/css-publication.git
+[submodule "img/publication"]
+	path = img/publication
+	url = https://github.com/sergio-castro/img-publication.git

@@ -3,13 +3,51 @@
 
 <dl>
 
+<dt class="Title">Customisable Handling of Java References in Prolog Programs</dt>
+<dd class="Pub">
+	<span class="Author">S. Castro and K. Mens and P. Moura</span>. 
+<span class="Booktitle">Proceedings of the International Conference on Logic Programming (ICLP) (To appear)</span>.&nbsp;(<span>
+			July,&nbsp;
+		2014</span>).&nbsp;
+	<span class="BibTex">@conference{2014-iclp-castro,
+	Abstract = {Integration techniques for combining programs written in distinct language paradigms facilitate the implementation of specialised modules in the best language for their task. In the case of Java-Prolog integration, a known problem is the proper representation of references to Java objects on the Prolog side. To solve it adequately, multiple dimensions should be considered, including reference representation, opacity of the representation, identity preservation, reference life span, and scope of the inter-language conversion policies. This paper presents an approach that addresses all these dimensions, generalising and building on existing representation patterns of foreign references in Prolog, and taking inspiration from similar inter-language representation techniques found in other domains. Our approach maximises portability by making few assumptions about the Prolog engine interacting with Java (e.g., embedded or executed as an external process). We validate our work by extending JPC, an open-source integration library, with features supporting our approach. Our JPC library is currently compatible with three different open source Prolog engines (SWI, YAP and XSB) by means of drivers.},
+	Annote = {JPC_publication},
+	Author = {Castro, Sergio and Mens, Kim and Moura, Paulo},
+	Booktitle = {Proceedings of the International Conference on Logic Programming (ICLP) (To appear).},
+	Date-Added = {2014-04-18 18:29:25 +0000},
+	Date-Modified = {2014-04-18 19:48:16 +0000},
+	Keywords = {Logic Programming, Object-Oriented Programming, Multi-Paradigm Programming, Language Interoperability, Java, Prolog},
+	Month = {July},
+	Title = {Customisable Handling of Java References in Prolog Programs},
+	Year = {2014},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QFDIwMTQtaWNscC1jYXN0cm8ucGRm0hcLGBlXTlMuZGF0YU8RAb4AAAAAAb4AAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAM3kw7lIKwAAAArXuRQyMDE0LWljbHAtY2FzdHJvLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAt+FczyKPeQAAAAAAAAAAAAEAAgAACSAAAAAAAAAAAAAAAAAAAAAGcGFwZXJzABAACAAAzeSnmQAAABEACAAAzyKBaQAAAAEAFAAK17kACr7IAAojQwAKDXcACg1rAAIATk1hY2ludG9zaCBIRDpVc2VyczoAc2VyZ2lvYzoARG9jdW1lbnRzOgByZXNlYXJjaDoAcGFwZXJzOgAyMDE0LWljbHAtY2FzdHJvLnBkZgAOACoAFAAyADAAMQA0AC0AaQBjAGwAcAAtAGMAYQBzAHQAcgBvAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA8VXNlcnMvc2VyZ2lvYy9Eb2N1bWVudHMvcmVzZWFyY2gvcGFwZXJzLzIwMTQtaWNscC1jYXN0cm8ucGRmABMAAS8AABUAAgAO//8AAIAG0hscHR5aJGNsYXNzbmFtZVgkY2xhc3Nlc11OU011dGFibGVEYXRhox0fIFZOU0RhdGFYTlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVkQXJjaGl2ZXLRJidUcm9vdIABAAgAEQAaACMALQAyADcAQABGAE0AVQBgAGcAagBsAG4AcQBzAHUAdwCEAI4ApQCqALICdAJ2AnsChgKPAp0CoQKoArECtgLDAsYC2ALbAuAAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC4g==}}</span>
+</dd>
+
+<dt class="Title">JPC: A Library for Categorising and Applying Inter-Language Conversions Between Java and Prolog</dt>
+<dd class="Pub">
+	<span class="Author">S. Castro and K. Mens and P. Moura</span>. 
+<span class="Journal">Science of Computer Programming: Experimental Software and Toolkits (EST 3) (Submitted)</span>.&nbsp;(<span>
+		2014</span>).&nbsp;
+	<span class="BibTex">@article{2014-scico-castro,
+	Abstract = {The number of approaches existing to enable a smooth interaction between Java and Prolog programs testifies the growing interest in solutions that combine the strengths of both languages. Most of these approaches provide limited support to allow programmers to customise how Prolog artefacts should be reified in the Java world, or how to reason about Java objects on the Prolog side. This is an error-prone task since often a considerable amount of mappings must be developed and organised. Furthermore, appropriate mappings may depend on the particular context in which a conversion is accomplished. Although some libraries alleviate this problem by providing higher-level abstractions to deal with the complexity of custom conversions between artefacts of the two languages, these libraries themselves are difficult to implement and evolve. We claim that this is caused by their lack of appropriate underlying building blocks for encapsulating, categorising and applying Java-Prolog conversion routines. We therefore introduce a new library, JPC, serving as a development tool for both programmers willing to categorise context-dependent conversion constructs in their Java-Prolog systems, and for architects implementing frameworks providing higher-level abstractions for better interoperability between these two languages.},
+	Annote = {JPC_publication},
+	Author = {Sergio Castro and Kim Mens and Paulo Moura},
+	Date-Added = {2014-04-18 19:17:38 +0000},
+	Date-Modified = {2014-04-18 19:44:17 +0000},
+	Journal = {Science of Computer Programming: Experimental Software and Toolkits (EST 3) (Submitted)},
+	Keywords = {Object-Oriented Programming, Logic Programming, Multi-Paradigm Programming, Programming Language Interoperability, Separation of Concerns},
+	Title = {JPC: A Library for Categorising and Applying Inter-Language Conversions Between Java and Prolog},
+	Year = {2014},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QFTIwMTQtc2NpY28tY2FzdHJvLnBkZtIXCxgZV05TLmRhdGFPEQHEAAAAAAHEAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADN5MO5SCsAAAAK17kVMjAxNC1zY2ljby1jYXN0cm8ucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAR5BJ89F8KcAAAAAAAAAAAABAAIAAAkgAAAAAAAAAAAAAAAAAAAABnBhcGVycwAQAAgAAM3kp5kAAAARAAgAAM9F4pcAAAABABQACte5AAq+yAAKI0MACg13AAoNawACAE9NYWNpbnRvc2ggSEQ6VXNlcnM6AHNlcmdpb2M6AERvY3VtZW50czoAcmVzZWFyY2g6AHBhcGVyczoAMjAxNC1zY2ljby1jYXN0cm8ucGRmAAAOACwAFQAyADAAMQA0AC0AcwBjAGkAYwBvAC0AYwBhAHMAdAByAG8ALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAD1Vc2Vycy9zZXJnaW9jL0RvY3VtZW50cy9yZXNlYXJjaC9wYXBlcnMvMjAxNC1zY2ljby1jYXN0cm8ucGRmAAATAAEvAAAVAAIADv//AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOAKYAqwCzAnsCfQKCAo0ClgKkAqgCrwK4Ar0CygLNAt8C4gLnAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAuk=}}</span>
+</dd>
+
 <dt class="Title">LogicObjects: A Portable and Extensible Approach for Linguistic Symbiosis between an Object-Oriented and a Logic Programming Language</dt>
 <dd class="Pub">
 	<span class="Author">S. Castro</span>. 
-<span class="Other">Research report</span>.&nbsp;<span class="School">International Conference on Logic Programming Doctoral Consortium (ICLP DC)</span>.&nbsp;(<span>
+<span class="Booktitle">Proceedings of the International Conference on Logic Programming, Doctoral Consortium (ICLP DC)</span>.&nbsp;(<span>
 			August,&nbsp;
 		2013</span>).&nbsp;
-	<span class="BibTex">@techreport{2013-iclp-castro,
+	<span class="BibTex">@inproceedings{2013-iclp-castro,
 	Abstract = {Logic languages are well suited for declaratively solving computational problems that require knowledge representation and reasoning. Object-oriented programming languages benefit from mature software ecosystems featuring rich libraries and developer tools.
 	Several integration solutions exist that allow a software system to be decomposed into a combination of modules implemented in both a logic and an object-oriented language. 
 	Unfortunately, significative amounts of boilerplate code must still be written to accomplish the required interoperability. 
@@ -19,13 +57,12 @@
 	We validate our approach with case studies requiring a seamless integration of declarative programs in Prolog with libraries belonging to the Java ecosystem.},
 	Annote = {JPC_publication},
 	Author = {Castro, Sergio},
+	Booktitle = {Proceedings of the International Conference on Logic Programming, Doctoral Consortium (ICLP DC)},
 	Date-Added = {2013-08-09 13:21:35 +0000},
-	Date-Modified = {2014-01-29 16:04:09 +0000},
-	Institution = {International Conference on Logic Programming Doctoral Consortium (ICLP DC)},
+	Date-Modified = {2014-04-18 18:28:31 +0000},
 	Keywords = {Logic Programming, Object-Oriented Programming, Multi-Paradigm Programming, Linguistic Integration},
 	Month = {August},
 	Title = {LogicObjects: A Portable and Extensible Approach for Linguistic Symbiosis between an Object-Oriented and a Logic Programming Language},
-	Type = {Research report},
 	Year = {2013},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QInNlcmdpbyBjYXN0cm8vMjAxMy1pY2xwLWNhc3Ryby5wZGbSFwsYGVdOUy5kYXRhTxEB6AAAAAAB6AACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAzeTDuUgrAAAACthPFDIwMTMtaWNscC1jYXN0cm8ucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACk2OvPDWxLAAAAAAAAAAAAAQADAAAJIAAAAAAAAAAAAAAAAAAAAA1zZXJnaW8gY2FzdHJvAAAQAAgAAM3kp5kAAAARAAgAAM8NXjsAAAABABgACthPAArXuQAKvsgACiNDAAoNdwAKDWsAAgBdTWFjaW50b3NoIEhEOlVzZXJzOgBzZXJnaW9jOgBEb2N1bWVudHM6AHJlc2VhcmNoOgBwYXBlcnM6AHNlcmdpbyBjYXN0cm86ADIwMTMtaWNscC1jYXN0cm8ucGRmAAAOACoAFAAyADAAMQAzAC0AaQBjAGwAcAAtAGMAYQBzAHQAcgBvAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBKVXNlcnMvc2VyZ2lvYy9Eb2N1bWVudHMvcmVzZWFyY2gvcGFwZXJzL3NlcmdpbyBjYXN0cm8vMjAxMy1pY2xwLWNhc3Ryby5wZGYAEwABLwAAFQACAA7//wAAgAbSGxwdHlokY2xhc3NuYW1lWCRjbGFzc2VzXU5TTXV0YWJsZURhdGGjHR8gVk5TRGF0YVhOU09iamVjdNIbHCIjXE5TRGljdGlvbmFyeaIiIF8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ryb290gAEACAARABoAIwAtADIANwBAAEYATQBVAGAAZwBqAGwAbgBxAHMAdQB3AIQAjgCzALgAwAKsAq4CswK+AscC1QLZAuAC6QLuAvsC/gMQAxMDGAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAMa}}</span>
 </dd>
@@ -153,12 +190,12 @@ layer, to facilitate the production of code with low memory footprint, and to si
 	Author = {Castro, Sergio and Mens, Kim and Moura, Paulo},
 	Booktitle = {Proceedings of the 9th ECOOP Workshop on Reflection, AOP, and Meta-Data for Software Evolution},
 	Date-Added = {2012-05-30 07:55:37 +0000},
-	Date-Modified = {2014-01-29 16:04:31 +0000},
+	Date-Modified = {2014-02-27 15:24:17 +0000},
 	Keywords = {Linguistic Symbiosis, Object-Oriented Programming, Logic Programming, Multi-paradigm programming},
 	Month = {June},
 	Pages = {11--16},
 	Publisher = {ACM},
-	Series = {RAM-SE '12},
+	Series = {RAM-SE'12},
 	Title = {LogicObjects : A Linguistic Symbiosis Approach to Bring the Declarative Power of Prolog to Java},
 	Year = {2012},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QFTIwMTItcmFtc2UtY2FzdHJvLnBkZtIXCxgZV05TLmRhdGFPEQHEAAAAAAHEAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADN5MO5SCsAAAAK17kVMjAxMi1yYW1zZS1jYXN0cm8ucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArX08vWqAYAAAAAAAAAAAABAAIAAAkgAAAAAAAAAAAAAAAAAAAABnBhcGVycwAQAAgAAM3kp5kAAAARAAgAAMvWi+YAAAABABQACte5AAq+yAAKI0MACg13AAoNawACAE9NYWNpbnRvc2ggSEQ6VXNlcnM6AHNlcmdpb2M6AERvY3VtZW50czoAcmVzZWFyY2g6AHBhcGVyczoAMjAxMi1yYW1zZS1jYXN0cm8ucGRmAAAOACwAFQAyADAAMQAyAC0AcgBhAG0AcwBlAC0AYwBhAHMAdAByAG8ALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAD1Vc2Vycy9zZXJnaW9jL0RvY3VtZW50cy9yZXNlYXJjaC9wYXBlcnMvMjAxMi1yYW1zZS1jYXN0cm8ucGRmAAATAAEvAAAVAAIADv//AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOAKYAqwCzAnsCfQKCAo0ClgKkAqgCrwK4Ar0CygLNAt8C4gLnAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAuk=}}</span>

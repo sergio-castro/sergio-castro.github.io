@@ -454,6 +454,7 @@ the site map, main menu, and anchor in the content are coordinated following the
 			{publicationType: 'unpublished', target: 'unpublishedWorkshopsContent'},
 			{publicationType: 'techreport', target: 'technicalReportsContent'},
 			{publicationType: 'misc', target: 'seminarsContent'},
+			{publicationType: 'phdthesis', target: 'thesesContent'},
 			{publicationType: 'mastersthesis', target: 'thesesContent'}
 		];
 		$.classifyPublications('allPublications', publicationsDistribution);

@@ -3,19 +3,49 @@
 
 <dl>
 
+<dt class="Title">A Portable Approach for Bidirectional Integration between a Logic and a Statically-Typed Object-Oriented Programming Language</dt>
+<dd class="Pub">
+	<span class="Author">S. Castro</span>. 
+<span class="School">Université catholique de Louvain</span>.&nbsp;(<span>
+			September,&nbsp;
+		2014</span>).&nbsp;
+	<span class="BibTex">@phdthesis{2014-phd-castro,
+	Abstract = {This dissertation seeks to improve on the state of the art for creating systems integrating modules written in both a logic and a statically-typed object-oriented language. Logic languages are well suited for declaratively solving computational problems that require knowledge representation and reasoning. Modern object-oriented programming languages benefit from mature software ecosystems featuring rich libraries and developer tools. The existence of several integration approaches testifies the interest of both communities in techniques for facilitating the creation of hybrid systems. In this way, systems developed in an object-oriented language can integrate modules written in a logic language that are more convenient for solving declarative problems. On the logic side, non-trivial declarative applications can take advantage of the existence of large software ecosystems such as those surrounding contemporary object-oriented languages. The combination of both paradigms allows a programmer to use the best language available for a given task.
+
+Existing integration approaches provide different levels of abstractions for dealing with the integration concern (i.e., the required interoperability in order for logic routines to access the object-oriented world, and vice versa). Some of them still require significant amounts of boilerplate code which hinders their adoption and steepens their learning curve. Others provide a high degree of integration transparency and automation which simplifies their usage. However, many of those approaches often impose strong assumptions about the architecture of a system (e.g., a logic program must run embedded in an object-oriented one) thus suffering from portability issues. Furthermore, most approaches provide limited support for custom context-dependent reification of objects in the logic world and custom mappings of arbitrary logic terms to objects in the object-oriented world.
+
+To address these problems, we introduce our portable and customisable approach for bidirectional integration between a logic and a statically-typed object-oriented language. This approach enables a transparent and (semi-) automatic communication between routines in these two worlds. In addition, it provides a customisable context-dependent mechanism for defining how artefacts in one language should be reified in the other language. A concrete implementation is provided as a portable Java--Prolog interoperability framework.
+
+To ensure portability, our framework has been made compatible with three open source Prolog engines (SWI, YAP and XSB) by means of drivers.
+
+We validated our approach through case studies requiring a seamless integration of declarative programs in Prolog with object-oriented programs in Java.
+},
+	Author = {Sergio Castro},
+	Date-Added = {2014-08-20 11:17:07 +0000},
+	Date-Modified = {2014-08-20 11:43:54 +0000},
+	Keywords = {Logic Programming, Object-Oriented Programming, Multi-Paradigm Programming, Language Interoperability, Java, Prolog},
+	Month = {September},
+	School = {{Universit{\'e} catholique de Louvain}},
+	Title = {A Portable Approach for Bidirectional Integration between a Logic and a Statically-Typed Object-Oriented Programming Language},
+	Year = {2014},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QEzIwMTQtcGhkLWNhc3Ryby5wZGbSFwsYGVdOUy5kYXRhTxEBvAAAAAABvAACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAzeTDuUgrAAAACte5EzIwMTQtcGhkLWNhc3Ryby5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGblKjQGlH6AAAAAAAAAAAAAQACAAAJIAAAAAAAAAAAAAAAAAAAAAZwYXBlcnMAEAAIAADN5KeZAAAAEQAIAADQGjXaAAAAAQAUAArXuQAKvsgACiNDAAoNdwAKDWsAAgBNTWFjaW50b3NoIEhEOlVzZXJzOgBzZXJnaW9jOgBEb2N1bWVudHM6AHJlc2VhcmNoOgBwYXBlcnM6ADIwMTQtcGhkLWNhc3Ryby5wZGYAAA4AKAATADIAMAAxADQALQBwAGgAZAAtAGMAYQBzAHQAcgBvAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA7VXNlcnMvc2VyZ2lvYy9Eb2N1bWVudHMvcmVzZWFyY2gvcGFwZXJzLzIwMTQtcGhkLWNhc3Ryby5wZGYAABMAAS8AABUAAgAO//8AAIAG0hscHR5aJGNsYXNzbmFtZVgkY2xhc3Nlc11OU011dGFibGVEYXRhox0fIFZOU0RhdGFYTlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVkQXJjaGl2ZXLRJidUcm9vdIABAAgAEQAaACMALQAyADcAQABGAE0AVQBgAGcAagBsAG4AcQBzAHUAdwCEAI4ApACpALECcQJzAngCgwKMApoCngKlAq4CswLAAsMC1QLYAt0AAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC3w==}}</span>
+</dd>
+
 <dt class="Title">Customisable Handling of Java References in Prolog Programs</dt>
 <dd class="Pub">
 	<span class="Author">S. Castro and K. Mens and P. Moura</span>. 
-<span class="Booktitle">Proceedings of the International Conference on Logic Programming (ICLP) (To appear)</span>.&nbsp;(<span>
+<span class="Booktitle">Proceedings of the 30th International Conference on Logic Programming (ICLP)</span>.&nbsp;(<span>
 			July,&nbsp;
 		2014</span>).&nbsp;
 	<span class="BibTex">@conference{2014-iclp-castro,
 	Abstract = {Integration techniques for combining programs written in distinct language paradigms facilitate the implementation of specialised modules in the best language for their task. In the case of Java-Prolog integration, a known problem is the proper representation of references to Java objects on the Prolog side. To solve it adequately, multiple dimensions should be considered, including reference representation, opacity of the representation, identity preservation, reference life span, and scope of the inter-language conversion policies. This paper presents an approach that addresses all these dimensions, generalising and building on existing representation patterns of foreign references in Prolog, and taking inspiration from similar inter-language representation techniques found in other domains. Our approach maximises portability by making few assumptions about the Prolog engine interacting with Java (e.g., embedded or executed as an external process). We validate our work by extending JPC, an open-source integration library, with features supporting our approach. Our JPC library is currently compatible with three different open source Prolog engines (SWI, YAP and XSB) by means of drivers.},
-	Annote = {JPC_publication},
+	Annote = {Castro_publication
+JPC_publication
+},
 	Author = {Castro, Sergio and Mens, Kim and Moura, Paulo},
-	Booktitle = {Proceedings of the International Conference on Logic Programming (ICLP) (To appear).},
+	Booktitle = {Proceedings of the 30th International Conference on Logic Programming (ICLP)},
 	Date-Added = {2014-04-18 18:29:25 +0000},
-	Date-Modified = {2014-04-18 19:48:16 +0000},
+	Date-Modified = {2014-08-20 11:16:05 +0000},
 	Keywords = {Logic Programming, Object-Oriented Programming, Multi-Paradigm Programming, Language Interoperability, Java, Prolog},
 	Month = {July},
 	Title = {Customisable Handling of Java References in Prolog Programs},
@@ -23,22 +53,107 @@
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QFDIwMTQtaWNscC1jYXN0cm8ucGRm0hcLGBlXTlMuZGF0YU8RAb4AAAAAAb4AAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAM3kw7lIKwAAAArXuRQyMDE0LWljbHAtY2FzdHJvLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAt+FczyKPeQAAAAAAAAAAAAEAAgAACSAAAAAAAAAAAAAAAAAAAAAGcGFwZXJzABAACAAAzeSnmQAAABEACAAAzyKBaQAAAAEAFAAK17kACr7IAAojQwAKDXcACg1rAAIATk1hY2ludG9zaCBIRDpVc2VyczoAc2VyZ2lvYzoARG9jdW1lbnRzOgByZXNlYXJjaDoAcGFwZXJzOgAyMDE0LWljbHAtY2FzdHJvLnBkZgAOACoAFAAyADAAMQA0AC0AaQBjAGwAcAAtAGMAYQBzAHQAcgBvAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA8VXNlcnMvc2VyZ2lvYy9Eb2N1bWVudHMvcmVzZWFyY2gvcGFwZXJzLzIwMTQtaWNscC1jYXN0cm8ucGRmABMAAS8AABUAAgAO//8AAIAG0hscHR5aJGNsYXNzbmFtZVgkY2xhc3Nlc11OU011dGFibGVEYXRhox0fIFZOU0RhdGFYTlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVkQXJjaGl2ZXLRJidUcm9vdIABAAgAEQAaACMALQAyADcAQABGAE0AVQBgAGcAagBsAG4AcQBzAHUAdwCEAI4ApQCqALICdAJ2AnsChgKPAp0CoQKoArECtgLDAsYC2ALbAuAAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC4g==}}</span>
 </dd>
 
+<dt class="Title">Hydra: An Open-Source Multi-Engine Prolog Query Browser</dt>
+<dd class="Pub">
+	<span class="Author">S. Castro</span>. 
+<span class="Howpublished">https://github.com/java-prolog-connectivity/jpc.commons.</span>&nbsp;(<span>
+		2014</span>).&nbsp;
+	<span class="BibTex">@misc{hydra,
+	Author = {Sergio Castro},
+	Date-Added = {2014-06-13 18:31:33 +0000},
+	Date-Modified = {2014-06-13 18:32:49 +0000},
+	Howpublished = {\url{https://github.com/java-prolog-connectivity/jpc.commons}},
+	Title = {{Hydra: An Open-Source Multi-Engine Prolog Query Browser}},
+	Year = {2014}}</span>
+</dd>
+
+<dt class="Title">JConverter: A Java Framework to Encapsulate, Categorise and Apply Type-Guided Conversions between Objects</dt>
+<dd class="Pub">
+	<span class="Author">S. Castro</span>. 
+<span class="Howpublished">http://jconverter.github.com/.</span>&nbsp;(<span>
+		2014</span>).&nbsp;
+	<span class="BibTex">@misc{jconverter,
+	Author = {Sergio Castro},
+	Date-Added = {2014-04-19 23:14:31 +0000},
+	Date-Modified = {2014-06-28 00:07:20 +0000},
+	Howpublished = {\url{http://jconverter.github.com/}},
+	Title = {{JConverter: A Java Framework to Encapsulate, Categorise and Apply Type-Guided Conversions between Objects}},
+	Year = {2014}}</span>
+</dd>
+
+<dt class="Title">JGum: A Lightweight Categorization Framework for Java</dt>
+<dd class="Pub">
+	<span class="Author">S. Castro</span>. 
+<span class="Howpublished">http://jgum.github.com/.</span>&nbsp;(<span>
+		2014</span>).&nbsp;
+	<span class="BibTex">@misc{jgum,
+	Author = {Sergio Castro},
+	Date-Added = {2014-04-19 23:15:05 +0000},
+	Date-Modified = {2014-04-19 23:24:23 +0000},
+	Howpublished = {\url{http://jgum.github.com/}},
+	Title = {{JGum: A Lightweight Categorization Framework for Java}},
+	Year = {2014}}</span>
+</dd>
+
+<dt class="Title">JPC: A Java-Prolog integration library inspired by Google's Gson</dt>
+<dd class="Pub">
+	<span class="Author">S. Castro</span>. 
+<span class="Howpublished">http://java-prolog-connectivity.github.com/.</span>&nbsp;(<span>
+		2014</span>).&nbsp;
+	<span class="BibTex">@misc{jpc,
+	Author = {Sergio Castro},
+	Date-Added = {2014-05-23 19:43:11 +0000},
+	Date-Modified = {2014-05-23 19:43:11 +0000},
+	Howpublished = {\url{http://java-prolog-connectivity.github.com/}},
+	Title = {{JPC: A Java-Prolog integration library inspired by Google's Gson}},
+	Year = {2014}}</span>
+</dd>
+
 <dt class="Title">JPC: A Library for Categorising and Applying Inter-Language Conversions Between Java and Prolog</dt>
 <dd class="Pub">
 	<span class="Author">S. Castro and K. Mens and P. Moura</span>. 
-<span class="Journal">Science of Computer Programming: Experimental Software and Toolkits (EST 3) (Submitted)</span>.&nbsp;(<span>
+<span class="Journal">Science of Computer Programming: Experimental Software and Toolkits (EST 6) (Submitted)</span>.&nbsp;(<span>
 		2014</span>).&nbsp;
 	<span class="BibTex">@article{2014-scico-castro,
 	Abstract = {The number of approaches existing to enable a smooth interaction between Java and Prolog programs testifies the growing interest in solutions that combine the strengths of both languages. Most of these approaches provide limited support to allow programmers to customise how Prolog artefacts should be reified in the Java world, or how to reason about Java objects on the Prolog side. This is an error-prone task since often a considerable amount of mappings must be developed and organised. Furthermore, appropriate mappings may depend on the particular context in which a conversion is accomplished. Although some libraries alleviate this problem by providing higher-level abstractions to deal with the complexity of custom conversions between artefacts of the two languages, these libraries themselves are difficult to implement and evolve. We claim that this is caused by their lack of appropriate underlying building blocks for encapsulating, categorising and applying Java-Prolog conversion routines. We therefore introduce a new library, JPC, serving as a development tool for both programmers willing to categorise context-dependent conversion constructs in their Java-Prolog systems, and for architects implementing frameworks providing higher-level abstractions for better interoperability between these two languages.},
-	Annote = {JPC_publication},
+	Annote = {Castro_publication
+JPC_publication},
 	Author = {Sergio Castro and Kim Mens and Paulo Moura},
 	Date-Added = {2014-04-18 19:17:38 +0000},
-	Date-Modified = {2014-04-18 19:44:17 +0000},
-	Journal = {Science of Computer Programming: Experimental Software and Toolkits (EST 3) (Submitted)},
+	Date-Modified = {2014-05-06 14:23:41 +0000},
+	Journal = {Science of Computer Programming: Experimental Software and Toolkits (EST 6) (Submitted)},
 	Keywords = {Object-Oriented Programming, Logic Programming, Multi-Paradigm Programming, Programming Language Interoperability, Separation of Concerns},
 	Title = {JPC: A Library for Categorising and Applying Inter-Language Conversions Between Java and Prolog},
 	Year = {2014},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QFTIwMTQtc2NpY28tY2FzdHJvLnBkZtIXCxgZV05TLmRhdGFPEQHEAAAAAAHEAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADN5MO5SCsAAAAK17kVMjAxNC1zY2ljby1jYXN0cm8ucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAR5BJ89F8KcAAAAAAAAAAAABAAIAAAkgAAAAAAAAAAAAAAAAAAAABnBhcGVycwAQAAgAAM3kp5kAAAARAAgAAM9F4pcAAAABABQACte5AAq+yAAKI0MACg13AAoNawACAE9NYWNpbnRvc2ggSEQ6VXNlcnM6AHNlcmdpb2M6AERvY3VtZW50czoAcmVzZWFyY2g6AHBhcGVyczoAMjAxNC1zY2ljby1jYXN0cm8ucGRmAAAOACwAFQAyADAAMQA0AC0AcwBjAGkAYwBvAC0AYwBhAHMAdAByAG8ALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAD1Vc2Vycy9zZXJnaW9jL0RvY3VtZW50cy9yZXNlYXJjaC9wYXBlcnMvMjAxNC1zY2ljby1jYXN0cm8ucGRmAAATAAEvAAAVAAIADv//AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOAKYAqwCzAnsCfQKCAo0ClgKkAqgCrwK4Ar0CygLNAt8C4gLnAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAuk=}}</span>
+</dd>
+
+<dt class="Title">LogicObjects: A Linguistic Integration Framework for Java and Prolog</dt>
+<dd class="Pub">
+	<span class="Author">S. Castro</span>. 
+<span class="Howpublished">https://github.com/java-prolog-connectivity/logicobjects/.</span>&nbsp;(<span>
+		2014</span>).&nbsp;
+	<span class="BibTex">@misc{logicobjects,
+	Author = {Sergio Castro},
+	Date-Added = {2014-04-19 23:13:29 +0000},
+	Date-Modified = {2014-04-19 23:24:41 +0000},
+	Howpublished = {\url{https://github.com/java-prolog-connectivity/logicobjects/}},
+	Title = {{LogicObjects: A Linguistic Integration Framework for Java and Prolog}},
+	Year = {2014}}</span>
+</dd>
+
+<dt class="Title">MapQuery: Querying and Visualizing Geographical Data using Prolog</dt>
+<dd class="Pub">
+	<span class="Author">S. Castro</span>. 
+<span class="Howpublished">https://github.com/java-prolog-connectivity/mapquery/.</span>&nbsp;(<span>
+		2014</span>).&nbsp;
+	<span class="BibTex">@misc{mapquery,
+	Author = {Sergio Castro},
+	Date-Added = {2014-04-19 23:10:54 +0000},
+	Date-Modified = {2014-05-23 19:45:17 +0000},
+	Howpublished = {\url{https://github.com/java-prolog-connectivity/mapquery/}},
+	Title = {{MapQuery: Querying and Visualizing Geographical Data using Prolog}},
+	Year = {2014}}</span>
 </dd>
 
 <dt class="Title">LogicObjects: A Portable and Extensible Approach for Linguistic Symbiosis between an Object-Oriented and a Logic Programming Language</dt>
@@ -55,11 +170,12 @@
 	Furthermore, in the specific case of Prolog-Java integration, existing solutions are often compatible with only a single or a restricted set of Prolog engines and thus suffer from portability issues.
 	To address these problems, we introduce a portable framework, relying on linguistic integration, for transparently and (semi-)automatically enabling communication between routines in these two worlds, as well as a simple mechanism for customising how native artefacts in one language should be reified in the other language. 
 	We validate our approach with case studies requiring a seamless integration of declarative programs in Prolog with libraries belonging to the Java ecosystem.},
-	Annote = {JPC_publication},
+	Annote = {Castro_publication
+JPC_publication},
 	Author = {Castro, Sergio},
 	Booktitle = {Proceedings of the International Conference on Logic Programming, Doctoral Consortium (ICLP DC)},
 	Date-Added = {2013-08-09 13:21:35 +0000},
-	Date-Modified = {2014-04-18 18:28:31 +0000},
+	Date-Modified = {2014-04-19 23:17:42 +0000},
 	Keywords = {Logic Programming, Object-Oriented Programming, Multi-Paradigm Programming, Linguistic Integration},
 	Month = {August},
 	Title = {LogicObjects: A Portable and Extensible Approach for Linguistic Symbiosis between an Object-Oriented and a Logic Programming Language},
@@ -74,9 +190,10 @@
 			July,&nbsp;
 		2013</span>).&nbsp;
 	<span class="BibTex">@misc{2013-sattose-castro-2,
+	Annote = {Castro_publication},
 	Author = {Castro, Sergio and Moura, Paulo and Mens, Kim},
 	Date-Added = {2013-08-09 13:38:17 +0000},
-	Date-Modified = {2014-01-29 16:03:19 +0000},
+	Date-Modified = {2014-04-19 23:17:48 +0000},
 	Howpublished = {Seminar on Advanced Tools and Techniques for Software Evolution (SATToSE). Bern, Switzerland},
 	Keywords = {Logic Programming, Multi-Paradigm Programming, Programming Language Interoperability, Software Ecosystems, Reusable Components},
 	Month = {July},
@@ -91,10 +208,11 @@
 			July,&nbsp;
 		2013</span>).&nbsp;
 	<span class="BibTex">@unpublished{2013-wasdett-castro,
+	Annote = {Castro_publication},
 	Author = {Castro, Sergio and Mens, Kim and Moura, Paulo},
 	Booktitle = {International Workshop on Advanced Software Development Tools and Techniques (WASDeTT). Co-located with the European Conference in Object-Oriented Programming (ECOOP)},
 	Date-Added = {2013-08-09 13:31:53 +0000},
-	Date-Modified = {2014-01-29 16:03:42 +0000},
+	Date-Modified = {2014-04-19 23:17:55 +0000},
 	Keywords = {Object-Oriented Programming, Logic Programming, Multi-Paradigm Programming, Programming Language Interoperability, Separation of Concerns},
 	Month = {July},
 	Title = {JPC: A Library for Modularising Inter-Language Conversion Concerns between Java and Prolog},
@@ -108,9 +226,10 @@
 			July,&nbsp;
 		2013</span>).&nbsp;
 	<span class="BibTex">@misc{2013-sattose-castro-1,
+	Annote = {Castro_publication},
 	Author = {Castro, Sergio and Mens, Kim and Moura, Paulo},
 	Date-Added = {2013-08-09 13:38:04 +0000},
-	Date-Modified = {2013-08-09 13:38:04 +0000},
+	Date-Modified = {2014-04-19 23:18:00 +0000},
 	Howpublished = {Seminar on Advanced Tools and Techniques for Software Evolution (SATToSE). Bern, Switzerland},
 	Keywords = {Software Ecosystems, Object--Oriented Programming, Logic Programming, Multi--Paradigm Programming},
 	Month = {July},
@@ -118,7 +237,7 @@
 	Year = {2013}}</span>
 </dd>
 
-<dt class="Title">LogicObjects: Enabling Logic Programming in Java Through Linguistic Symbiosis</dt>
+<dt class="Title">LogicObjects: Enabling Logic Programming in Java through Linguistic Symbiosis</dt>
 <dd class="Pub">
 	<span class="Author">S. Castro and K. Mens and P. Moura</span>. 
 <span class="Booktitle">Proceedings of the 15th International Symposium on Practical Aspects of Declarative Languages (PADL)</span>.&nbsp;Editor: <span class="Editor">Sagonas, Kostis</span>.&nbsp;V. <span class="Volume">7752</span>&nbsp;P. <span class="VolumePages">26-42</span>&nbsp;<span class="Address">Rome, Italy</span>&nbsp;(<span>
@@ -141,18 +260,19 @@ symbiosis framework for transparently and (semi-) automatically
 enabling logic programming in Java, that aims to solve most of the problems
 of paradigm leaking reported in other works.},
 	Address = {Rome, Italy},
-	Annote = {JPC_publication},
+	Annote = {Castro_publication
+JPC_publication},
 	Author = {Castro, Sergio and Mens, Kim and Moura, Paulo},
 	Booktitle = {Proceedings of the 15th International Symposium on Practical Aspects of Declarative Languages (PADL)},
 	Date-Added = {2014-01-19 16:23:32 +0000},
-	Date-Modified = {2014-01-29 16:04:24 +0000},
+	Date-Modified = {2014-05-31 23:29:20 +0000},
 	Editor = {Sagonas, Kostis},
 	Keywords = {Linguistic Symbiosis, Object-Oriented Programming, Logic Programming, Multi-paradigm programming},
 	Month = {January},
 	Pages = {26-42},
 	Publisher = {Springer Berlin Heidelberg},
 	Series = {Lecture Notes in Computer Science},
-	Title = {{LogicObjects: Enabling Logic Programming in Java Through Linguistic Symbiosis}},
+	Title = {{LogicObjects: Enabling Logic Programming in Java through Linguistic Symbiosis}},
 	Volume = {7752},
 	Year = 2013,
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QFDIwMTMtcGFkbC1jYXN0cm8ucGRm0hcLGBlXTlMuZGF0YU8RAb4AAAAAAb4AAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAM3kw7lIKwAAAArXuRQyMDEzLXBhZGwtY2FzdHJvLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACtfUzNUlPAAAAAAAAAAAAAEAAgAACSAAAAAAAAAAAAAAAAAAAAAGcGFwZXJzABAACAAAzeSnmQAAABEACAAAzNUXLAAAAAEAFAAK17kACr7IAAojQwAKDXcACg1rAAIATk1hY2ludG9zaCBIRDpVc2VyczoAc2VyZ2lvYzoARG9jdW1lbnRzOgByZXNlYXJjaDoAcGFwZXJzOgAyMDEzLXBhZGwtY2FzdHJvLnBkZgAOACoAFAAyADAAMQAzAC0AcABhAGQAbAAtAGMAYQBzAHQAcgBvAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA8VXNlcnMvc2VyZ2lvYy9Eb2N1bWVudHMvcmVzZWFyY2gvcGFwZXJzLzIwMTMtcGFkbC1jYXN0cm8ucGRmABMAAS8AABUAAgAO//8AAIAG0hscHR5aJGNsYXNzbmFtZVgkY2xhc3Nlc11OU011dGFibGVEYXRhox0fIFZOU0RhdGFYTlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVkQXJjaGl2ZXLRJidUcm9vdIABAAgAEQAaACMALQAyADcAQABGAE0AVQBgAGcAagBsAG4AcQBzAHUAdwCEAI4ApQCqALICdAJ2AnsChgKPAp0CoQKoArECtgLDAsYC2ALbAuAAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC4g==}}</span>
@@ -167,10 +287,11 @@ of paradigm leaking reported in other works.},
 	<span class="BibTex">@inproceedings{2012-cop-castro,
 	Abstract = {While context-oriented programming technology so far has focused mostly on behavioral adaptation, context-oriented data management has received much less attention. In this paper we make a case for the problem of context-oriented data management, using a concrete example of a mobile application. We illustrate some of the issues involved and propose a lightweight persistency framework, called DynamicSchema, that resolves some of these issues. The solution consists in a flexible reification of the database schema, as a convenient dynamic data structure that can be adapted at execution time, according to sensed context changes. Implementing our mobile application using this framework enabled us to reduce the complexity of the domain modeling
 layer, to facilitate the production of code with low memory footprint, and to simplify the implementation of certain scenarios related to context-dependent security concerns.},
+	Annote = {Castro_publication},
 	Author = {Castro, Sergio and {Gonz{\'a}lez}, {Sebasti{\'a}n} and Mens, Kim and Denker, Marcus},
 	Booktitle = {Proceedings of the Workshop on Context-Oriented Programming (COP'12)},
 	Date-Added = {2012-07-09 13:32:31 +0000},
-	Date-Modified = {2013-08-09 13:52:31 +0000},
+	Date-Modified = {2014-04-19 23:18:11 +0000},
 	Keywords = {Context-Oriented Data Management, Data Access Layer, Dynamic Adaptability, Persistency},
 	Month = {June},
 	Title = {DynamicSchema: A Lightweight Persistency Framework for Context-Oriented Data Management},
@@ -178,7 +299,7 @@ layer, to facilitate the production of code with low memory footprint, and to si
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QEzIwMTItY29wLWNhc3Ryby5wZGbSFwsYGVdOUy5kYXRhTxEBvAAAAAABvAACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAzeTDuUgrAAAACte5EzIwMTItY29wLWNhc3Ryby5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK19LLn3qsAAAAAAAAAAAAAQACAAAJIAAAAAAAAAAAAAAAAAAAAAZwYXBlcnMAEAAIAADN5KeZAAAAEQAIAADLn16MAAAAAQAUAArXuQAKvsgACiNDAAoNdwAKDWsAAgBNTWFjaW50b3NoIEhEOlVzZXJzOgBzZXJnaW9jOgBEb2N1bWVudHM6AHJlc2VhcmNoOgBwYXBlcnM6ADIwMTItY29wLWNhc3Ryby5wZGYAAA4AKAATADIAMAAxADIALQBjAG8AcAAtAGMAYQBzAHQAcgBvAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgA7VXNlcnMvc2VyZ2lvYy9Eb2N1bWVudHMvcmVzZWFyY2gvcGFwZXJzLzIwMTItY29wLWNhc3Ryby5wZGYAABMAAS8AABUAAgAO//8AAIAG0hscHR5aJGNsYXNzbmFtZVgkY2xhc3Nlc11OU011dGFibGVEYXRhox0fIFZOU0RhdGFYTlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVkQXJjaGl2ZXLRJidUcm9vdIABAAgAEQAaACMALQAyADcAQABGAE0AVQBgAGcAagBsAG4AcQBzAHUAdwCEAI4ApACpALECcQJzAngCgwKMApoCngKlAq4CswLAAsMC1QLYAt0AAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAC3w==}}</span>
 </dd>
 
-<dt class="Title">LogicObjects : A Linguistic Symbiosis Approach to Bring the Declarative Power of Prolog to Java</dt>
+<dt class="Title">LogicObjects: A Linguistic Symbiosis Approach to Bring the Declarative Power of Prolog to Java</dt>
 <dd class="Pub">
 	<span class="Author">S. Castro and K. Mens and P. Moura</span>. 
 <span class="Booktitle">Proceedings of the 9th ECOOP Workshop on Reflection, AOP, and Meta-Data for Software Evolution</span>.&nbsp;P. <span class="VolumePages">11--16</span>&nbsp;(<span>
@@ -186,17 +307,18 @@ layer, to facilitate the production of code with low memory footprint, and to si
 		2012</span>).&nbsp;
 	<span class="BibTex">@inproceedings{2012-ramse-castro,
 	Abstract = {Logic programming is well suited for declaratively solving computational problems that require knowledge representation and reasoning. Object-oriented languages, on the other hand, are well suited for modeling real-world concepts and profit from rich ecosystems developed around them, which are often missing from logic languages. For applications that require both the declarative power of logic programming and the rich modeling expressiveness and development environments offered by object-oriented languages, there is a need for reconciling both worlds. LogicObjects is our linguistic symbiosis framework for integrating Prolog within the Java language. It extends Java with annotations that allow Java programs to interact transparently and automatically with Prolog programs.},
-	Annote = {JPC_publication},
+	Annote = {Castro_publication
+JPC_publication},
 	Author = {Castro, Sergio and Mens, Kim and Moura, Paulo},
 	Booktitle = {Proceedings of the 9th ECOOP Workshop on Reflection, AOP, and Meta-Data for Software Evolution},
 	Date-Added = {2012-05-30 07:55:37 +0000},
-	Date-Modified = {2014-02-27 15:24:17 +0000},
+	Date-Modified = {2014-05-18 11:33:23 +0000},
 	Keywords = {Linguistic Symbiosis, Object-Oriented Programming, Logic Programming, Multi-paradigm programming},
 	Month = {June},
 	Pages = {11--16},
 	Publisher = {ACM},
 	Series = {RAM-SE'12},
-	Title = {LogicObjects : A Linguistic Symbiosis Approach to Bring the Declarative Power of Prolog to Java},
+	Title = {LogicObjects: A Linguistic Symbiosis Approach to Bring the Declarative Power of Prolog to Java},
 	Year = {2012},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QFTIwMTItcmFtc2UtY2FzdHJvLnBkZtIXCxgZV05TLmRhdGFPEQHEAAAAAAHEAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADN5MO5SCsAAAAK17kVMjAxMi1yYW1zZS1jYXN0cm8ucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArX08vWqAYAAAAAAAAAAAABAAIAAAkgAAAAAAAAAAAAAAAAAAAABnBhcGVycwAQAAgAAM3kp5kAAAARAAgAAMvWi+YAAAABABQACte5AAq+yAAKI0MACg13AAoNawACAE9NYWNpbnRvc2ggSEQ6VXNlcnM6AHNlcmdpb2M6AERvY3VtZW50czoAcmVzZWFyY2g6AHBhcGVyczoAMjAxMi1yYW1zZS1jYXN0cm8ucGRmAAAOACwAFQAyADAAMQAyAC0AcgBhAG0AcwBlAC0AYwBhAHMAdAByAG8ALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAD1Vc2Vycy9zZXJnaW9jL0RvY3VtZW50cy9yZXNlYXJjaC9wYXBlcnMvMjAxMi1yYW1zZS1jYXN0cm8ucGRmAAATAAEvAAAVAAIADv//AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOAKYAqwCzAnsCfQKCAo0ClgKkAqgCrwK4Ar0CygLNAt8C4gLnAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAuk=}}</span>
 </dd>
@@ -208,9 +330,10 @@ layer, to facilitate the production of code with low memory footprint, and to si
 			April,&nbsp;
 		2011</span>).&nbsp;
 	<span class="BibTex">@misc{2011-sattose-castro,
+	Annote = {Castro_publication},
 	Author = {S. Castro},
 	Date-Added = {2011-04-08 14:45:58 +0200},
-	Date-Modified = {2011-04-08 14:48:38 +0200},
+	Date-Modified = {2014-04-19 23:18:23 +0000},
 	Howpublished = {Seminar on Advanced Tools and Techniques for Software Evolution (SATToSE). Koblenz, Germany},
 	Keywords = {inconsistency management},
 	Month = {April},
@@ -240,9 +363,10 @@ user-defined binary relationships between two sets of source code artifacts (e.g
 invoke a persistence method).
 We illustrate our approach on the design of IntensiVE, a tool suite that enables defining sets of source code artifacts
 intensionally (by means of logic queries) and verifying relationships between such sets.},
+	Annote = {Castro_publication},
 	Author = {Sergio Castro and Coen De Roover and Andy Kellens and Angela Lozano and Kim Mens and Theo D'Hondt},
 	Date-Added = {2010-11-10 16:45:07 +0100},
-	Date-Modified = {2011-08-30 17:09:08 +0200},
+	Date-Modified = {2014-04-19 23:18:28 +0000},
 	Doi = {DOI: 10.1016/j.scico.2010.09.001},
 	Issn = {0167-6423},
 	Journal = {Science of Computer Programming: Special Issue on Software Evolution, Adaptability and Variability},
@@ -266,9 +390,10 @@ intensionally (by means of logic queries) and verifying relationships between su
 			April,&nbsp;
 		2010</span>).&nbsp;
 	<span class="BibTex">@misc{2010-sattose-castro,
+	Annote = {Castro_publication},
 	Author = {S. Castro},
 	Date-Added = {2008-05-21 00:37:15 +0200},
-	Date-Modified = {2011-04-03 14:14:00 +0200},
+	Date-Modified = {2014-04-19 23:18:32 +0000},
 	Howpublished = {Seminar on Advanced Tools and Techniques for Software Evolution (SATToSE). Clapiers, France},
 	Keywords = {inconsistency management},
 	Month = {April},
@@ -296,9 +421,10 @@ of these regularities in the source code of the system, IntensiVE reports the co
 (i.e. classes, methods, variables, statements, etc.) that violate these constraints.
 We present IntensiVE and illustrate its application to the verification of an Abstract
 Factory design pattern in the implementation of a software system.},
+	Annote = {Castro_publication},
 	Author = {Johan Brichau and Andy Kellens and Sergio Castro and Theo {D'Hondt}},
 	Date-Added = {2010-11-10 19:52:38 +0100},
-	Date-Modified = {2011-04-03 13:31:37 +0200},
+	Date-Modified = {2014-04-19 23:19:05 +0000},
 	Journal = {Science of Computer Programming: Experimental Software and Toolkits (EST 3)},
 	Keywords = {software evolution, logic meta programming, structural regularities},
 	Month = {April},
@@ -310,7 +436,7 @@ Factory design pattern in the implementation of a software system.},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QFjIwMTAtc2NpY28tYnJpY2hhdS5wZGbSFwsYGVdOUy5kYXRhTxEBxgAAAAABxgACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAzeTDuUgrAAAACte5FjIwMTAtc2NpY28tYnJpY2hhdS5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK19DGHy02AAAAAAAAAAAAAQACAAAJIAAAAAAAAAAAAAAAAAAAAAZwYXBlcnMAEAAIAADN5KeZAAAAEQAIAADGHxEWAAAAAQAUAArXuQAKvsgACiNDAAoNdwAKDWsAAgBQTWFjaW50b3NoIEhEOlVzZXJzOgBzZXJnaW9jOgBEb2N1bWVudHM6AHJlc2VhcmNoOgBwYXBlcnM6ADIwMTAtc2NpY28tYnJpY2hhdS5wZGYADgAuABYAMgAwADEAMAAtAHMAYwBpAGMAbwAtAGIAcgBpAGMAaABhAHUALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAD5Vc2Vycy9zZXJnaW9jL0RvY3VtZW50cy9yZXNlYXJjaC9wYXBlcnMvMjAxMC1zY2ljby1icmljaGF1LnBkZgATAAEvAAAVAAIADv//AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOAKcArAC0An4CgAKFApACmQKnAqsCsgK7AsACzQLQAuIC5QLqAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAuw=}}</span>
 </dd>
 
-<dt class="Title">Generation and Composition of Corrective Actions to Structural Design Problems in Code with Heal</dt>
+<dt class="Title">Generation and Composition of Corrective Actions to Code Design Problems with Heal</dt>
 <dd class="Pub">
 	<span class="Author">S. Castro and A. Kellens and C. De Roover and K. Mens</span>. 
 <span class="Booktitle">9th BElgian-NEtherlands EVOLution Workshop (BENEVOL). Lille, France</span>.&nbsp;(<span>
@@ -330,12 +456,13 @@ In a previous work we show how simple solutions are generated from a repository 
 level structural problems. In this work, we give one additional step showing that multiple solutions affecting the same
 source code element can be composed, presenting to the programmer the complete vision of how the source code
 would look like after executing a set of corrective actions.},
+	Annote = {Castro_publication},
 	Author = {S. Castro and A. Kellens and C. {De Roover} and K. Mens},
 	Booktitle = {9th BElgian-NEtherlands EVOLution Workshop (BENEVOL). Lille, France},
 	Date-Added = {2011-03-13 12:12:57 +0100},
-	Date-Modified = {2011-04-03 13:33:51 +0200},
+	Date-Modified = {2014-05-18 11:36:26 +0000},
 	Keywords = {inconsistency management, abductive reasoning, logic meta programming},
-	Title = {Generation and Composition of Corrective Actions to Structural Design Problems in Code with Heal},
+	Title = {Generation and Composition of Corrective Actions to Code Design Problems with Heal},
 	Year = {2010},
 	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QFzIwMTAtYmVuZXZvbC1jYXN0cm8ucGRm0hcLGBlXTlMuZGF0YU8RAcwAAAAAAcwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAM3kw7lIKwAAAArXuRcyMDEwLWJlbmV2b2wtY2FzdHJvLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACtfPyQCxagAAAAAAAAAAAAEAAgAACSAAAAAAAAAAAAAAAAAAAAAGcGFwZXJzABAACAAAzeSnmQAAABEACAAAyQCjWgAAAAEAFAAK17kACr7IAAojQwAKDXcACg1rAAIAUU1hY2ludG9zaCBIRDpVc2VyczoAc2VyZ2lvYzoARG9jdW1lbnRzOgByZXNlYXJjaDoAcGFwZXJzOgAyMDEwLWJlbmV2b2wtY2FzdHJvLnBkZgAADgAwABcAMgAwADEAMAAtAGIAZQBuAGUAdgBvAGwALQBjAGEAcwB0AHIAbwAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAP1VzZXJzL3Nlcmdpb2MvRG9jdW1lbnRzL3Jlc2VhcmNoL3BhcGVycy8yMDEwLWJlbmV2b2wtY2FzdHJvLnBkZgAAEwABLwAAFQACAA7//wAAgAbSGxwdHlokY2xhc3NuYW1lWCRjbGFzc2VzXU5TTXV0YWJsZURhdGGjHR8gVk5TRGF0YVhOU09iamVjdNIbHCIjXE5TRGljdGlvbmFyeaIiIF8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ryb290gAEACAARABoAIwAtADIANwBAAEYATQBVAGAAZwBqAGwAbgBxAHMAdQB3AIQAjgCoAK0AtQKFAocCjAKXAqACrgKyArkCwgLHAtQC1wLpAuwC8QAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAALz}}</span>
 </dd>
@@ -366,10 +493,11 @@ user-defined inconsistencies, starting from basic composable
 corrective actions. A first prototype implementing
 our technique on top of IntensiVE is shown.},
 	Address = {Brest, France},
+	Annote = {Castro_publication},
 	Author = {S. Castro and J. Brichau and K. Mens},
 	Booktitle = {International Workshop on Smalltalk Technologies (IWST)},
 	Date-Added = {2010-02-10 01:25:08 +0100},
-	Date-Modified = {2013-08-09 13:57:41 +0000},
+	Date-Modified = {2014-04-19 23:19:15 +0000},
 	Keywords = {Design inconsistency, diagnosis, correction, abductive reasoning , IntensiVE, SOUL, Smalltalk},
 	Month = {August},
 	Title = {Diagnosis and Semi-automatic Correction of Detected Design Inconsistencies in Source Code},
@@ -384,9 +512,10 @@ our technique on top of IntensiVE is shown.},
 			May,&nbsp;
 		2009</span>).&nbsp;
 	<span class="BibTex">@misc{2009-sattose-castro,
+	Annote = {Castro_publication},
 	Author = {S. Castro},
 	Date-Added = {2010-07-25 15:29:23 +0200},
-	Date-Modified = {2011-04-03 14:13:54 +0200},
+	Date-Modified = {2014-04-19 23:19:19 +0000},
 	Howpublished = {Seminar on Advanced Tools and Techniques for Software Evolution (SATToSE). Baie de Somme, France},
 	Keywords = {inconsistency management},
 	Month = {May},
@@ -397,14 +526,15 @@ our technique on top of IntensiVE is shown.},
 <dt class="Title">Diagnosis and Correction of Structural Design Inconsistencies in Software</dt>
 <dd class="Pub">
 	<span class="Author">S. Castro and A. Kellens and C. D. Roover and K. Mens</span>. 
-(<span>
+<span class="Booktitle">8th BElgian-NEtherlands EVOLution Workshop (BENEVOL). Louvain-la-Neuve, Belgium</span>.&nbsp;(<span>
 		2009</span>).&nbsp;
 	<span class="BibTex">@unpublished{2009-benevol-castro,
+	Annote = {Castro_publication},
 	Author = {Sergio Castro and Andy Kellens and Coen De Roover and Kim Mens},
+	Booktitle = {8th BElgian-NEtherlands EVOLution Workshop (BENEVOL). Louvain-la-Neuve, Belgium},
 	Date-Added = {2011-03-28 01:58:43 +0200},
-	Date-Modified = {2011-04-05 09:57:14 +0200},
+	Date-Modified = {2014-05-18 11:52:07 +0000},
 	Keywords = {Logic Abduction},
-	Note = {8th BElgian-NEtherlands EVOLution Workshop (BENEVOL). Louvain-la-Neuve, Belgium},
 	Title = {Diagnosis and Correction of Structural Design Inconsistencies in Software},
 	Year = {2009}}</span>
 </dd>
@@ -417,9 +547,10 @@ our technique on top of IntensiVE is shown.},
 	<span class="BibTex">@techreport{2009-fundp-hubaux,
 	Abstract = {The problem of managing inconsistencies in and between models is omnipresent in software engineering. Over the years many different inconsistency management approaches have been proposed by the research community. Because of the large diversity of backgrounds from which these approaches originate, it is difficult to pinpoint what they have in common and what not. As a result, researchers encounter difficulties when they want to position and compare their work with existing state-of-the-art, or when they collaborate on or combine different approaches. Also, end-users have a hard time to make an informed decision when selecting the most appropriate approaches. To address these problems, we propose a unifying conceptual framework of definitions and terminology, independent of any concrete inconsistency management approach or (modelling) language. This reference framework allows to gain a common understanding of what inconsistency management involves, what an inconsistency really means, and what the possible causes of an inconsistency can be. We demonstrate the genericity and usefulness of the framework by providing concrete instantiations of it to four different inconsistency management approaches. },
 	Address = {http://www.info.fundp.ac.be/~acl/P-CS-TR-WP4CM-000001.pdf},
+	Annote = {Castro_publication},
 	Author = {A. Hubaux and A. Cleve and P. Schobbens and A. Keller and O. Muliawan and S. Castro and K. Mens and D. Deridder and R. Van Der Straeten},
 	Date-Added = {2010-07-25 15:20:16 +0200},
-	Date-Modified = {2011-04-03 13:37:30 +0200},
+	Date-Modified = {2014-04-19 23:19:27 +0000},
 	Institution = {FUNDP, Namur. Facult{\'e} d'Informatique},
 	Keywords = {Inconsistency management, conceptual framework},
 	Title = {Towards a Unifying Conceptual Framework for Inconsistency Management Approaches: Definitions and Instantiations},
@@ -435,9 +566,10 @@ our technique on top of IntensiVE is shown.},
 			February,&nbsp;
 		2008</span>).&nbsp;
 	<span class="BibTex">@misc{2008-sattose-castro,
+	Annote = {Castro_publication},
 	Author = {S. Castro},
 	Date-Added = {2010-07-25 15:29:28 +0200},
-	Date-Modified = {2011-04-03 14:14:07 +0200},
+	Date-Modified = {2014-04-19 23:19:31 +0000},
 	Howpublished = {Seminar on Advanced Tools and Techniques for Software Evolution (SATToSE). Waulsort, Belgium},
 	Keywords = {inconsistency management},
 	Month = {February},
@@ -458,10 +590,11 @@ that these regularities are verified and enforced in subsequent evolutions of th
 The Intensional Views Environment (IntensiVE), presented in this article, is a tool suite for
 documenting such structural regularities in (object-oriented) software systems and verifying
 their consistency in later versions of those systems.},
+	Annote = {Castro_publication},
 	Author = {J. Brichau and A. Kellens and S. Castro and T. D'Hondt},
 	Booktitle = {International Workshop on Advanced Software Development Tools and Techniques (WASDeTT). Co-located with the European Conference in Object-Oriented Programming (ECOOP)},
 	Date-Added = {2008-05-29 15:56:18 +0200},
-	Date-Modified = {2011-04-03 13:36:25 +0200},
+	Date-Modified = {2014-04-19 23:19:35 +0000},
 	Keywords = {software evolution, logic metaprogramming, software documentation},
 	Title = {Enforcing Structural Regularities in Software using IntensiVE},
 	Year = {2008},
@@ -474,9 +607,10 @@ their consistency in later versions of those systems.},
 <span class="Howpublished">Working Conference on Reverse Engineering (WCRE).</span>&nbsp;(<span>
 		2008</span>).&nbsp;
 	<span class="BibTex">@misc{2008-wcre-brichau,
+	Annote = {Castro_publication},
 	Author = {J. Brichau and A. Kellens and K. Mens and S. Castro},
 	Date-Added = {2011-03-28 19:53:51 +0200},
-	Date-Modified = {2011-04-03 14:13:45 +0200},
+	Date-Modified = {2014-04-19 23:19:39 +0000},
 	Howpublished = {Working Conference on Reverse Engineering (WCRE)},
 	Keywords = {IntensiVE},
 	Title = {The IntensiVE Tool Suite},
@@ -508,10 +642,11 @@ and highlights the features that a verifiable and highly cus-
 tomizable tool should provide in order to satisfy most of the 
 code design documentation requirements present in the im- 
 plementation of complex software systems. },
+	Annote = {Castro_publication},
 	Author = {S. Castro and K. Mens and J. Brichau},
 	Booktitle = {Query Technologies and Applications for Program Comprehension (QTAPC). Collocated Workshop at the IEEE International Conference on Program Comprehension (ICPC)},
 	Date-Added = {2008-05-20 22:12:10 +0200},
-	Date-Modified = {2011-04-03 12:16:39 +0200},
+	Date-Modified = {2014-04-19 23:19:43 +0000},
 	Keywords = {taxonomy code design documentation},
 	Title = {Towards a Taxonomy of Tools for Documenting Code Design},
 	Year = {2008},
@@ -521,14 +656,15 @@ plementation of complex software systems. },
 <dt class="Title">Towards an Automated Tool for Correcting Design Decay</dt>
 <dd class="Pub">
 	<span class="Author">S. Castro and J. Brichau and K. Mens</span>. 
-(<span>
+<span class="Booktitle">7th BElgian-NEtherlands EVOLution Workshop (BENEVOL). Eindhoven, Netherlands</span>.&nbsp;(<span>
 		2008</span>).&nbsp;
 	<span class="BibTex">@unpublished{2008-benevol-castro,
+	Annote = {Castro_publication},
 	Author = {S. Castro and J. Brichau and K. Mens},
+	Booktitle = {7th BElgian-NEtherlands EVOLution Workshop (BENEVOL). Eindhoven, Netherlands},
 	Date-Added = {2011-03-28 01:38:57 +0200},
-	Date-Modified = {2011-04-05 09:56:02 +0200},
+	Date-Modified = {2014-05-18 11:52:52 +0000},
 	Keywords = {Logic Abduction},
-	Note = {7th BElgian-NEtherlands EVOLution Workshop (BENEVOL). Eindhoven, Netherlands},
 	Title = {Towards an Automated Tool for Correcting Design Decay},
 	Year = {2008}}</span>
 </dd>
@@ -554,10 +690,11 @@ framework that implements this unified mechanism. Moreover,
 we show how DBCF can be used as a basis for defining a BPEL 
 extension that successfully addresses the above problems.},
 	Address = {Iquique, Chile},
+	Annote = {Castro_publication},
 	Author = {S. Castro and J. Fabry and K. Mens and T. {D'Hondt}},
 	Booktitle = {XXVI International Conference of the Chilean Computer Science Society (ICCC)},
 	Date-Added = {2008-01-09 21:49:48 +0100},
-	Date-Modified = {2011-04-03 12:15:45 +0200},
+	Date-Modified = {2014-04-19 23:19:51 +0000},
 	Editor = {IEEE Computer Society},
 	Keywords = {Web Services composition, ACTA, KALA, Distributed programming},
 	Month = {November},
@@ -589,9 +726,10 @@ ceptual model in service composition languages. In addition, we present an exten
 BPEL4WS that adds these features, and suggest ways of describing declaratively transac- 
 tional properties expressed with our proposed extension using aspect oriented technologies. 
 },
+	Annote = {Castro_publication},
 	Author = {S. Castro},
 	Date-Added = {2008-01-09 23:41:59 +0100},
-	Date-Modified = {2011-04-08 14:44:45 +0200},
+	Date-Modified = {2014-04-19 23:19:56 +0000},
 	Keywords = {Web Services composition, KALA, ACTA, Distributed programming},
 	Month = {August},
 	Rating = {3},
@@ -611,9 +749,10 @@ tional properties expressed with our proposed extension using aspect oriented te
 		2004</span>).&nbsp;
 	<span class="BibTex">@mastersthesis{2004-engineeringhesis-castro,
 	Abstract = {This thesis describes the initial module of a complex Convergent Mediation system. Its implementation has been successfully deployed in an Ecuadorian Telecom company. The main technologies involved in the system were Java and XML related specifications.},
+	Annote = {Castro_publication},
 	Author = {S. Castro and W. Maldonado},
 	Date-Added = {2011-03-01 10:42:13 +0100},
-	Date-Modified = {2011-04-08 14:45:01 +0200},
+	Date-Modified = {2014-04-19 23:20:00 +0000},
 	Month = {December},
 	School = {Escuela Superior Polit{\'e}cnica del Litoral (ESPOL) (Ecuador)},
 	Title = {Analysis, Design and Implementation of a Code Generator System for the Interpretation of Distinct Call Detail Records (CDRs) Formats},

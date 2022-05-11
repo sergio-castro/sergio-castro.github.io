@@ -448,6 +448,7 @@ the site map, main menu, and anchor in the content are coordinated following the
 		configureTeaching();
 		
 		var publicationsDistribution = [
+			{publicationType: 'patent', target: 'patentContent'},
 			{publicationType: 'article', target: 'journalsContent'},
 			{publicationType: 'conference', target: 'conferencesContent'},
 			{publicationType: 'inproceedings', target: 'publishedWorkshopsContent'},
